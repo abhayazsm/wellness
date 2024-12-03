@@ -24,17 +24,17 @@
 <!--==============================
     About Area
     ==============================-->
-<section class=" space-top space-extra-bottom">
+<section class=" space-top space-extra-bottom mt-4 mb-4">
     <div class="shape-mockup jump-img d-none d-xl-block" data-left="34%" data-bottom="1%"><img
             src="{{ asset('img/shape/leaf-1-6.png') }}" alt="shape"></div>
     <div class="container">
         <div class="row justify-content-between gx-0 ">
             <div class="col-md-6">
-                <span class="sec-subtitle">welcome Integrated Wellness Solution</span>
+                <span class="sec-subtitle">welcome Integrated Wellness service</span>
                 <h2 class="h3 pe-xxl-5 me-xxl-5">Our Philosophy of Wellness</h2>
 
                 <p>
-                    Brief introduction to the core values of Integrated Wellness Solutions,
+                    Brief introduction to the core values of Integrated Wellness services,
                     highlighting a holistic, non-invasive approach to health that promotes
                     the body’s natural ability to repair and renew.
                 </p>
@@ -79,7 +79,7 @@
                 <h4 class="fw-medium fs-26 font-body ">Our Mission</h4>
                 <p>
                     To inspire and empower individuals to achieve their best health through 
-                    innovative and personalized wellness solutions.
+                    innovative and personalized wellness services.
                 </p>
             </div>
             <div class="col-md-3 wow fadeInUp p-2 border" data-wow-delay="0.3s">

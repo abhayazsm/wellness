@@ -5,11 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-xl-10 col-lg-12 col-md-9">
             <div class="card o-hidden border-0 shadow-lg my-5">
-                <div class="card-body p-0">
-                    <div class="row">
+                <div class="card-body p-0" style="height:30rem;">
+                    <div class="row" style="height:30rem;">
                         <div class="col-lg-6 d-none d-lg-block bg-password-image"></div>
                         <div class="col-lg-6">
-                            <div class="p-5">
+                            <div class="p-5" style="margin-top:6rem;">
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-4">{{ __('Reset Password') }}</h1>
                                 </div>

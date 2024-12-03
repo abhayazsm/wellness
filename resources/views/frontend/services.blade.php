@@ -25,7 +25,7 @@
     <!--==============================
     Service Details
     ==============================-->
-    <section class=" space-top space-extra-bottom">
+    <section class=" space-top space-extra-bottom mt-4 mb-4">
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
@@ -33,6 +33,14 @@
                         <div class="mega-hover"><img src="{{ asset('storage/' . $service->image) }}" alt="Service Image"></div>
                     </div>
                     {!! $service->content !!}
+                    <div class="row">
+                        <div class="col-6 mb-30">
+                            <div class="mega-hover"><img src="{{ $service->footer_first_image ? asset('storage/'. $service->footer_first_image) : asset('img/service/s-d-1-2.jpg')}}" alt="footer first image" class="w-100"></div>
+                        </div>
+                        <div class="col-6 mb-30">
+                            <div class="mega-hover"><img src="{{ $service->footer_second_image ? asset('storage/'. $service->footer_second_image): asset('img/service/s-d-1-3.jpg')}}" alt="footer second image" class="w-100"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -44,10 +52,11 @@
                                 @endforeach
                             </ul>
                         </div>
+                        
                         <div class="img-box3 style3">
                             <div class="img-2 jump-img"><img src="{{ asset('img/shape/leaf-1-7.png') }}" alt="about"></div>
                             <div class="img-product">
-                                <a href="#"><img src="{{ asset('img/common/ser-detail-hend.png') }}" alt="" width="100%"></a>
+                                <a href="#"><img src="{{ $service->side_image ? asset('storage/'. $service->side_image) : asset('img/common/ser-detail-hend.png') }}" alt="" width="100%"></a>
                             </div>
                         </div>
                     </aside>

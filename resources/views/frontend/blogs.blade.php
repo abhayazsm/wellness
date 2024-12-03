@@ -30,7 +30,7 @@
 <!--==============================
     Blog Area
 ==============================-->
-<section class="vs-blog-wrapper space-top space-extra-bottom">
+<section class="vs-blog-wrapper space-top space-extra-bottom mt-4">
     <div class="container">
         <div class="row gx-50">
             <div class="col-lg-8 col-xxl-9">

@@ -11,7 +11,7 @@ class MediaController extends Controller
 {
     public function index()
     {
-        $mediaItems = Media::paginate(9);;
+        $mediaItems = Media::paginate(9);
         return view('admin.media.index', compact('mediaItems'));
     }
 
@@ -36,10 +36,10 @@ class MediaController extends Controller
             $path = $request->file('file')->store('media', 'public');
             $media->file_path = $path;
             
-            if ($request->type == 'video') {
-                // Optional: Generate thumbnail for video
-                $media->thumbnail = 'path_to_video_thumbnail';
-            }
+            // if ($request->type == 'video') {
+            //     // Optional: Generate thumbnail for video
+            //     $media->thumbnail = 'path_to_video_thumbnail';
+            // }
         }
 
         $media->save();

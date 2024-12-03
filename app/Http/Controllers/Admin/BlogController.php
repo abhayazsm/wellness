@@ -15,7 +15,7 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $blogs = Blog::all();  // Fetch all blogs
+        $blogs = Blog::paginate(10);  // Fetch all blogs
         // dd($blogs[0]->category->name); 
         return view('admin.blogs.index', compact('blogs'));
     }

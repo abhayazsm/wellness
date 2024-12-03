@@ -18,6 +18,9 @@ return new class extends Migration
             $table->string('short_desc')->unique();
             $table->longText('content'); // For rich text layout content
             $table->string('image')->nullable();
+            $table->string('side_image')->nullable();
+            $table->string('footer_first_image')->nullable();
+            $table->string('footer_second_image')->nullable();
             $table->timestamps();
         });
     }

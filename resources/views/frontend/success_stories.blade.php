@@ -24,7 +24,7 @@
 <!--==============================
     About Area
     ==============================-->
-<section class=" space-top space-extra-bottom">
+<section class=" space-top space-extra-bottom mt-4 mb-4">
     <div class="shape-mockup jump-img d-none d-xl-block" data-left="34%" data-bottom="1%"><img
             src="{{ asset('img/shape/leaf-1-6.png') }}" alt="shape"></div>
     <div class="container">

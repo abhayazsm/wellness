@@ -27,7 +27,7 @@ class ContactUsController extends Controller
         }
 
         // Paginate results
-        $contacts = $contacts->paginate(5); // 10 items per page
+        $contacts = $contacts->paginate(10); // 10 items per page
 
         // Return view with data
         return view('admin.contacts.index', compact('contacts'));

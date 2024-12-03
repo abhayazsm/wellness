@@ -22,20 +22,20 @@
                             <div class="col-6">
                                 <div class="menu-all-pages-container footer-menu">
                                     <ul class="menu">
-                                        <li><a href="{{ url('/') }}">Home</a></li>
+                                        <li style="list-style-type: none; position:static;"><a href="{{ url('/') }}">Home</a></li>
                                         @foreach ($services as $service)
-                                            <li><a href="{{ route('services', $service->slug) }}">{{$service->title}}</a></li>
+                                            <li style="list-style-type: none; position:static;"><a href="{{ route('services', $service->slug) }}">{{$service->title}}</a></li>
                                         @endforeach
-                                        <li><a href="{{ url('/benefits') }}"> Benefits</a></li>
+                                        <li style="list-style-type: none; position:static;"><a href="{{ url('/benefits') }}"> Benefits</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="menu-all-pages-container footer-menu">
                                     <ul class="menu">
-                                        <li><a href="{{ url('/success-stories') }}">Success Stories</a></li>
-                                        <li><a href="{{ url('/about-us') }}">About Us</a></li>
-                                        <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
+                                        <li style="list-style-type: none; position:static;"><a href="{{ url('/success-stories') }}">Success Stories</a></li>
+                                        <li style="list-style-type: none; position:static;"><a href="{{ url('/about-us') }}">About Us</a></li>
+                                        <li style="list-style-type: none; position:static;"><a class="no-before" href="{{ url('/contact-us') }}">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -49,8 +49,8 @@
                             <p class="footer-info">
                                 <a href="tel:+01234567890" class="text-inherit" style="color:black;"><i
                                         class="far fa-phone-alt text-theme me-2"></i>5164063272</a> <br>
-                                <a class="text-inherit" style="color:black;" href="mailto:info@example.com"><i
-                                        class="fal fa-envelope text-theme me-2"></i>info@example.com</a> <br>
+                                <a class="text-inherit" style="color:black;" href="mailto:info@wellnessintegrated.co"><i
+                                        class="fal fa-envelope text-theme me-2"></i>info@wellnessintegrated.co</a> <br>
 
                              </p>
                             <p><i class="fal fa-map text-theme me-2"></i>

@@ -38,7 +38,7 @@ class ResetPasswordController extends Controller
      */
     protected function setUserPassword($user, $password)
     {
-        \Log::info('Password mutator triggered:', ['new_password' => $value]);
+        // \Log::info('Password mutator triggered:', ['new_password' => $value]);
         $user->password = $password;
     }
 }

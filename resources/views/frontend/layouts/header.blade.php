@@ -64,7 +64,7 @@
                 <div class="info-media1">
                     <div class="media-icon"><i class="fal fa-envelope"></i></div>
                     <span class="media-label"><a class="text-inherit"
-                            href="mailto:info@example.com">info@example.com</a></span>
+                            href="mailto:info@wellnessintegrated.co">info@wellnessintegrated.co</a></span>
                 </div>
             </div>
             <div class="widget  ">
@@ -149,7 +149,7 @@
                                 <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>23, Pine street , Plainview, NY 11803</li>
                                 <li><i class="far fa-phone-alt"></i><a href="tel:+5164063272">5164063272</a></li>
                                 <li><i class="far fa-envelope"></i><a
-                                        href="mailto:example@lorem.com">example@lorem.com</a></li>
+                                        href="mailto:info@wellnessintegrated.co">info@wellnessintegrated.co</a></li>
                             </ul>
                         </div>
                     </div>
@@ -172,7 +172,16 @@
                     <div class="row justify-content-between align-items-center gx-60">
                         <div class="col-auto logo_img">
                             <div class="header-logo">
-                                <a href="index.php"><img src="{{ asset('img/logo_header.png') }}" alt="" class="header_logo" width="80px"></a>
+                                <a href="index.php">
+                                    <picture>
+                                        <!-- Image for larger screens -->
+                                        <source srcset="{{ asset('img/logo_header.png') }}" media="(min-width: 1024px)">
+                                        <!-- Image for medium screens -->
+                                        <source srcset="{{ asset('img/logo_header.png') }}" media="(min-width: 768px)">
+                                        <!-- Fallback image for smaller screens -->
+                                        <img src="{{ asset('img/logo_header.png') }}" alt="Logo" class="header_logo">
+                                    </picture>
+                                </a>
                             </div>
                         </div>
                         <div class="col-auto">

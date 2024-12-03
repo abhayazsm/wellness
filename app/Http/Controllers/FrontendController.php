@@ -23,7 +23,7 @@ class FrontendController extends Controller
         $mediaItems = Media::latest()->take(5)->get();
         $remainingCount = Media::count() - $mediaItems->count(); // Remaining items count
         $blogs = Blog::orderBy('created_at', 'desc')->get(); 
-        $services = Service::all();
+        $services = Service::latest()->take(3)->get();
         
         return view('frontend/home', compact('slides', 'mediaItems', 'blogs', 'services', 'remainingCount'));
     }
@@ -140,6 +140,7 @@ class FrontendController extends Controller
     {
         $service =  Service::where('slug', $slug)->firstOrFail();
         $allService = Service::all();
+        // dd($service);
         return view('frontend.services', compact('service', 'allService'));
     }
 

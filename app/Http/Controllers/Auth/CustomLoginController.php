@@ -26,7 +26,7 @@ class CustomLoginController extends Controller
         // Attempt login
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
             // Authentication passed, redirect to dashboard or home
-            return redirect()->intended('/');
+            return redirect()->intended('/dashboard');
         }
 
         // Authentication failed, redirect back with error

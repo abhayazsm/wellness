@@ -37,7 +37,7 @@
                         <div class="tr">
                             <div class="tb-col">
                                 <span class="th">email :</span>
-                                <span class="td"><a href="mailto:info@example.com" class="text-inherit">info@example.com</a></span>
+                                <span class="td"><a href="mailto:info@wellnessintegrated.co" class="text-inherit">info@wellnessintegrated.co</a></span>
                             </div>
                             <!-- <div class="tb-col">
                                 <span class="th">time : </span>

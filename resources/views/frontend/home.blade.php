@@ -12,11 +12,11 @@ header    close
 <!--==============================
     Hero Area
     ==============================-->
-<section class=" ">
-    <div class="vs-hero-carousel" data-height="650" data-container="1900" data-slidertype="responsive">
+<!-- <section class=" ">
+    <div class="vs-hero-carousel" data-height="650" data-container="1900" data-slidertype="responsive"> -->
 
         <!-- Slide 1-->
-        <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
+        <!-- <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
             <img width="1920" height="800" src="{{ asset('storage/' .$slides[0]->image_path) }}" class="ls-bg" alt="hero-bg"
                 decoding="async">
             <p style='font-size:20px; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; background-clip:border-box; overflow:visible; font-family:"DM Sans", sans-serif; left:370px; top:135px; line-height:20px; color:#121f38; -webkit-background-clip:border-box;'
@@ -96,11 +96,11 @@ header    close
                 data-ls="offsetyin:150; durationin:1500; delayin:800; easingin:easeOutQuint; offsetyout:150; durationout:1500; easingout:easeOutQuint;">
                 <a href="{{ route('contact-us') }}" class="vs-btn style9">Get Started Today<i class="far fa-long-arrow-right"></i></a>
             </div>
-        </div>
+        </div> -->
 
 
         <!-- Slide 2-->
-        <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
+        <!-- <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
             <img width="1920" height="650" src="{{ asset('storage/' . $slides[1]->image_path) }}" class="ls-bg" alt="hero-bg"
                 decoding="async">
             <p style='font-size:20px; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; background-clip:border-box; overflow:visible; font-family:"DM Sans", sans-serif; left:370px; top:135px; line-height:20px; color:#121f38; -webkit-background-clip:border-box;'
@@ -162,7 +162,7 @@ header    close
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!--==============================
@@ -183,9 +183,9 @@ About Area
         </div>
         <div class="col-lg-6 align-self-center  wow fadeInUp" data-wow-delay="0.3s">
             <span class="sec-subtitle5">Welcome to <span class="inner-text">Integrated Wellness
-                    Solution</span></span>
+                    Service</span></span>
             <h2 class="sec-title4">Our Philosophy of Wellness <span class="inner-text"></span></h2>
-            <p class="quote-text2">Brief introduction to the core values of Integrated Wellness Solutions,
+            <p class="quote-text2">Brief introduction to the core values of Integrated Wellness Services,
                 highlighting a holistic, non-invasive approach to health that promotes the body’s natural ability to
                 repair and renew.</p>
             <div class="vs-btn-group">
@@ -198,62 +198,126 @@ About Area
 </div>
 </section>
 
-
+<!-- Divider -->
+<div class="divider-style1 ">
+<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
+</div>
 <!--==============================
-Service Area
+Benefits Area
 ==============================-->
-<section class="space mb-5">
-<div class="parallax" data-parallax-image="{{ asset('img/common/service-bg.jpg') }}"></div>
-<div class="container z-index-common">
-    <div class="row justify-content-center text-center">
-        <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp " data-wow-delay="0.2s">
-            <div class="title-area">
-                <span class="sec-subtitle text-white">Our Integrated Wellness Services</span>
-                <h2 class="sec-title text-white">Our Services</h2>
+
+<section class=" space">
+    <div class="service-inner1">
+        <div class="shape-mockup jump d-none d-xxl-block" data-top="-10%" data-right="0"><img src="{{ asset('img/hero/hero-leaf-5.png') }}" alt="shape"></div>
+        <div class="container-xl">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-lg-5 col-xxl-auto">
+                    <div class="service-style1 reverse">
+                        <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-1.png') }}" alt="icon"></div>
+                        <div class="service-content">
+                            <h3 class="service-title"><a href="service-details.html" class="text-inherit">Enhanced Energy Levels</a></h3>
+                            <p class="service-text">Experience a noticeable boost in daily energy through personalized wellness strategies that align with your body's unique needs.</p>
+                        </div>
+                    </div>
+                    <div class="service-style1 reverse">
+                        <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-2.png') }}" alt="icon"></div>
+                        <div class="service-content">
+                            <h3 class="service-title"><a href="service-details.html" class="text-inherit">Early Detection of Imbalances</a></h3>
+                            <p class="service-text">Identify and address potential health concerns before they develop further, thanks to non-invasive bioenergetic testing.</p>
+                        </div>
+                    </div>
+                    <div class="service-style1 reverse">
+                        <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-3.png') }}" alt="icon"></div>
+                        <div class="service-content">
+                            <h3 class="service-title"><a href="service-details.html" class="text-inherit">Personalized Nutrition Plans</a></h3>
+                            <p class="service-text">Enjoy tailored nutritional guidance that supports digestion, weight management, and overall metabolic health.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xxl-auto text-center d-none d-lg-block">
+                    <img src="{{ asset('img/bg/sr-shape-1-1.png') }}" alt="shape" class="mt-n4">
+                </div>
+                <div class="col-md-6 col-lg-5 col-xxl-auto">
+                    <div class="service-style1">
+                        <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-4.png') }}" alt="icon"></div>
+                        <div class="service-content">
+                            <h3 class="service-title"><a href="service-details.html" class="text-inherit">Improved Mental Clarity</a></h3>
+                            <p class="service-text">Reduce stress and improve focus with wellness coaching designed to strengthen mental and emotional resilience.</p>
+                        </div>
+                    </div>
+                    <div class="service-style1">
+                        <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-5.png') }}" alt="icon"></div>
+                        <div class="service-content">
+                            <h3 class="service-title"><a href="service-details.html" class="text-inherit">Strengthened Immune System</a></h3>
+                            <p class="service-text">Adopt holistic practices that fortify your immune system, promoting long-term health and disease prevention.</p>
+                        </div>
+                    </div>
+                    <div class="service-style1">
+                        <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-6.png') }}" alt="icon"></div>
+                        <div class="service-content">
+                            <h3 class="service-title"><a href="service-details.html" class="text-inherit">Sustainable Healthy Habits</a></h3>
+                            <p class="service-text">Develop and maintain lasting lifestyle changes that support both physical and mental wellness under expert guidance.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="row gx-20 gy-gx service5-slider justify-content-center vs-carousel wow fadeInUp" 
-        data-wow-delay="0.2s" 
-        data-slide-show="3" 
-        data-lg-slide-show="3" 
-        data-md-slide-show="2" 
-        data-sm-slide-show="1">
-        @foreach ($services as $service)
-            <div class="col-md-6 col-lg-3 col-xl-3">
-                <div class="service-style5">
-                    <div class="service-icon">
-                        <img src="{{ asset('storage/' . $service->image) }}" alt="icon">
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title h4" >
-                            <a style="font-size: 25px;" class="text-inherit" href="{{ route('services', $service->slug) }}">
-                                {{ $service->title }}
-                            </a>
-                        </h4>
-                        <!-- <p class="service-text">{{ $service->title, 100 }}</p> -->
-                        <p class="service-text">{!! Str::limit($service->short_desc, 150) !!}</p>
-                    </div>
-                    <a href="{{ route('services', $service->slug) }}" class="service-btn">
-                        <i class="far fa-plus"></i>
-                    </a>
-                </div>
-            </div>
-        @endforeach
-    </div>
-</div>
 </section>
-
-
 
 <!-- Divider -->
 <div class="divider-style1 ">
-<div class="divider-icon"><img src="{{ asset('img/logo.png') }}" alt="icon"></div>
+<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
 </div>
+<!--==============================
+Service Area
+==============================-->
+<section class="space mb-4 mt-4">
+    <div class="parallax" data-parallax-image="{{ asset('img/common/service-bg.jpg') }}"></div>
+    <div class="container z-index-common">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp " data-wow-delay="0.2s">
+                <div class="title-area">
+                    <span class="sec-subtitle text-white">Our Integrated Wellness Services</span>
+                    <h2 class="sec-title text-white">Our Services</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-20 gy-gx service5-slider justify-content-center vs-carousel wow fadeInUp" 
+            data-wow-delay="0.2s" 
+            data-slide-show="3" 
+            data-lg-slide-show="3" 
+            data-md-slide-show="2" 
+            data-sm-slide-show="1">
+            @foreach ($services as $service)
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="service-style5">
+                        <div class="service-icon">
+                            <img src="{{ asset('storage/' . $service->image) }}" alt="icon">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title h4" >
+                                <a style="font-size: 25px;" class="text-inherit" href="{{ route('services', $service->slug) }}">
+                                    {{ $service->title }}
+                                </a>
+                            </h4>
+                            <!-- <p class="service-text">{{ $service->title, 100 }}</p> -->
+                            <p class="service-text">{!! Str::limit($service->short_desc, 150) !!}</p>
+                        </div>
+                        <a href="{{ route('services', $service->slug) }}" class="service-btn">
+                            <i class="far fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</section>
 
-
-
-
+<!-- Divider -->
+<div class="divider-style1 ">
+<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
+</div>
 
 <!--==============================
 why choose start
@@ -338,6 +402,11 @@ why choose start
 </div>
 </section>
 
+<!-- Divider -->
+<div class="divider-style1 ">
+<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
+</div>
+
 <!--==============================
 Gallery Area
 ==============================-->
@@ -371,7 +440,7 @@ Gallery Area
         </div>
 
         <!-- Gallery Items -->
-        <div class="row filter-active gx-4 gy-gx" wow fadeInUp data-wow-delay="0.3s" id="galleryContent">
+        <div class="row filter-active gx-4 gy-gx wow fadeInUp" data-wow-delay="0.3s" id="galleryContent">
             @foreach ($mediaItems as $item)
                 <div class="col-sm-6 col-lg-4 col-xxl-auto filter-item {{ $item->type }}">
                     <div class="gallery-style3 image-scale-hover">
@@ -404,6 +473,10 @@ Gallery Area
     </div>
 </section>
 
+<!-- Divider -->
+<div class="divider-style1 ">
+<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
+</div>
 
 <!--==============================
 Blog Area
@@ -449,11 +522,10 @@ Blog Area
     </div>
 </section>
 
-
-
-
-
-
+<!-- Divider -->
+<div class="divider-style1 mb-4">
+<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
+</div>
 
 <!--==============================
 Testimonial Area

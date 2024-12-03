@@ -26,7 +26,7 @@ class AppointmentController extends Controller
         }
 
         // Paginate results
-        $appointments = $appointments->paginate(5); // 10 items per page
+        $appointments = $appointments->paginate(10); // 10 items per page
 
         // Return view with data
         return view('admin.appointments.index', compact('appointments'));

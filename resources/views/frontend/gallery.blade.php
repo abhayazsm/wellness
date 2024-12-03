@@ -10,11 +10,11 @@
 <div class="breadcumb-wrapper " data-bg-src="{{ asset('img/common/bg-sub-title.jpg') }}">
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title text-white">Our <span class="inner-text text-white">Gallery</span></h1>
+                <h1 class="breadcumb-title text-white"><span class="inner-text text-white">Media</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu text-white">
                         <li class="text-white "><a href="index.php" class="text-white ">Home</a></li>
-                        <li class="text-white ">Our <span class="inner-text text-white ">Gallery</span></li>
+                        <li class="text-white "><span class="inner-text text-white ">Media</span></li>
                     </ul>
                 </div>
             </div>
@@ -31,7 +31,6 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-9 col-lg-7 col-xl-6">
                     <div class="title-area">
-                        <h2 class="sec-title4">Media</h2>
                         <p class="sec-text">Media showcases the serene and rejuvenating atmosphere of our wellness facilities and services.</p>
                     </div>
                 </div>

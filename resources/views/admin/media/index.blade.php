@@ -123,14 +123,14 @@
 
 </style>
     <div class="d-flex justify-content-between align-items-center mb-3">
-        <h1>Media</h1>
+        <h1 class="text-info">Media</h1>
         <a href="{{ route('admin.media.create') }}" class="btn btn-info">Add Media</a>
     </div>
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
-    <div class="container"> 
-        <div class="row mt-4  gx-3">
+    <div class="container m-2"> 
+        <div class="row mt-4 gx-3">
             @foreach ($mediaItems as $media)
                 <div class="col-sm-6 col-lg-4 mt-4">
                     <div class="gallery-style3">
@@ -161,7 +161,7 @@
             @endforeach
         </div>
         <!-- Pagination Links -->
-        <div class="pagination-wrapper mt-4" style="float: inline-end">
+        <div class="d-flex justify-content-center mt-4">
             {{ $mediaItems->links() }}
         </div>
     </div>

@@ -3,7 +3,7 @@
 @section('main-content')
 @auth
     <script>
-        window.location.href = "{{ route('admin') }}";  // Redirect to admin dashboard
+        window.location.href = "{{ route('dashboard') }}";  // Redirect to admin dashboard
     </script>
 @endauth 
 <div class="container">

@@ -97,10 +97,31 @@
         section.space-top.space-extra-bottom {
             padding-top: 10px !important;
             padding-bottom: 10px !important;
+            margin-top: 10px;
         }
         .ls-wrapper.ls-in-out.ls-hide-on-tablet.ls-hide-on-desktop{
             margin-top: 73px !important;
         }
+        span.inner-text {
+            margin-top: 8px;
+        }
+
+        .vs-btn.style10{
+            margin:2px 0 25px 5px;
+        }
+        .header_logo{
+            width: 125px !important;
+            height: 77px !important;
+            padding:10px!important;
+        }
+        .logo_img{
+            padding:0;
+        }
+    }
+
+    .header_logo{
+        width:165px;
+        padding:5px;
     }
 
     /* Styles for screens larger than 768px */
@@ -126,8 +147,8 @@
     }
 
     #galleryContent {
-        height: auto !important; /* Reset height */
-        position: relative !important; /* Ensure proper positioning */
+        height: auto !important; 
+        position: relative !important; 
     }
         
     </style>
@@ -191,6 +212,31 @@
             });
         });
     });
+
+    $(document).ready(function() {
+    // Initialize Magnific Popup for images
+    $('.popup-image').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true // Enable gallery mode for images
+        }
+    });
+
+    // Initialize Magnific Popup for videos
+    $('.popup-video').magnificPopup({
+        type: 'iframe',
+        iframe: {
+            patterns: {
+                youtube: {
+                    index: 'youtube.com/',
+                    id: 'v=', // YouTube ID parameter
+                    src: 'https://www.youtube.com/embed/%id%?autoplay=1' // Embed URL format
+                }
+            }
+        }
+    });
+});
+
 </script>
 
 
@@ -302,8 +348,23 @@
             fetchMedia(filter, offset);
         });
     });
+    
+    $(window).on("load",function () {
+        const allTabButton = $('#all-tab');
 
+        if (allTabButton.length) {
+            console.log('Button found! Triggering click...');
+            allTabButton.trigger('click'); // Trigger the click event
+        } else {
+            console.log('Button not found!');
+        }
 
+        // Add a click event listener to confirm the event works
+        $('#all-tab').on('click', function () {
+            console.log('All tab button clicked!');
+            // Add your actual logic here if needed
+        });
+    });
 </script>
 
 <script>

@@ -94,8 +94,8 @@
   --icon-font: "Font Awesome 5 Pro";
   --main-container: 1270px;
   --container-gutters: 30px;
-  --section-space: 70px;
-  --section-space-mobile: 80px;
+  --section-space: 55px;
+  --section-space-mobile: 45px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
 }
@@ -2042,7 +2042,7 @@ textarea.is-invalid {
 }
 
 .sec-text {
-  margin: 0 0 20px 0;
+  margin: 0 0 -30px 0;
   padding-bottom: 7px;
 }
 
@@ -2113,6 +2113,7 @@ textarea.is-invalid {
   .sec-title4 {
     font-size: 32px;
     margin-bottom: 10px;
+    line-height: 35px;
   }
   .sec-text {
     font-size: 14px;
@@ -2139,7 +2140,7 @@ textarea.is-invalid {
 /* Small devices */
 @media (max-width: 767px) {
   .title-area {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
 }
 /*------------------- 3.4. Common -------------------*/
@@ -2481,7 +2482,7 @@ textarea.is-invalid {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, var(--theme-color) 50%, rgba(255, 255, 255, 0) 100%);
 }
 .divider-style1 .divider-icon {
-  width: 80px;
+  width: 115px;
   height: 80px;
   line-height: 80px;
   text-align: center;
@@ -3580,10 +3581,11 @@ a.text-theme:hover,
   display: block;
   border: none;
   max-width: 100%;
-  padding: 0 0 0 13px;
+  padding: 0 0 0 0;
   color: var(--body-color);
-  margin-bottom: 23px;
+  margin-bottom: 15px;
   text-transform: uppercase;
+  line-height: 18px;
 }
 .footer-widget.widget_nav_menu a:before {
   content: "\f054";
@@ -3591,6 +3593,7 @@ a.text-theme:hover,
   font-size: 11px;
   font-weight: 700;
   color: var(--theme-color);
+  display: none;
 }
 .footer-widget.widget_nav_menu a:hover {
   background-color: transparent;
@@ -3611,8 +3614,9 @@ a.text-theme:hover,
 .footer-info {
   color: #a3a2a2;
   font-weight: 500;
-  margin-top: -0.3em;
+  margin-top: -0.9em;
   line-height: 32px;
+  margin-bottom: 5px;
 }
 
 .footer-number {
@@ -3686,8 +3690,7 @@ a.text-theme:hover,
 }
 
 .header-logo {
-  max-width: 270px;
-  padding: 10px 0;
+  max-width: 300px;
 }
 
 .will-sticky .sticky-active {
@@ -6638,7 +6641,7 @@ blockquote.vs-quote cite:before {
 
 .img-box7 {
   position: relative;
-  padding: 60px 0 60px 0;
+  padding: 50px 0 0 0;
   margin: 0 0 30px 0;
 }
 .img-box7 .img-1 {

@@ -37,7 +37,7 @@ Route::get('login', [CustomLoginController::class, 'showLoginForm'])->name('logi
 Route::post('login', [CustomLoginController::class, 'login'])->name('custom.login');
 Route::post('logout', [CustomLoginController::class, 'logout'])->name('logout');
 
-Route::get('/admin', 'HomeController@index')->name('admin');
+Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 
 Route::get('/profile', 'ProfileController@index')->name('profile');
 Route::put('/profile', 'ProfileController@update')->name('profile.update');

@@ -59,31 +59,36 @@ class SlideController extends Controller
     }
 
     public function update(Request $request, Slide $slide)
-    {
-        $request->validate([
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'title' => 'nullable|string',
-            'subtitle' => 'nullable|string',
-            'description' => 'nullable|string',
-            'button_text' => 'nullable|string',
-            'button_link' => 'nullable|string',
-        ]);
+{
+    // Validation for all the fields
+    $request->validate([
+        'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+        'title' => 'nullable|string|max:255',
+        'subtitle' => 'nullable|string|max:255',
+        'description' => 'nullable|string',
+        'button_text' => 'nullable|string|max:255',
+        'button_link' => 'nullable|string', // Ensure button_link is a valid URL if provided
+    ]);
 
-        // Handle the image upload
-        if ($request->hasFile('image')) {
-            // Delete the old image if it exists
-            if ($slide->image_path && \Storage::exists('public/' . $slide->image_path)) {
-                \Storage::delete('public/' . $slide->image_path);
-            }
-
-            $imagePath = $request->file('image')->store('slides', 'public'); // Upload new image
-            $slide->image_path = $imagePath; // Update the path
+    // Handle the image upload
+    if ($request->hasFile('image')) {
+        // Delete the old image if it exists
+        if ($slide->image_path && \Storage::disk('public')->exists($slide->image_path)) {
+            \Storage::disk('public')->delete($slide->image_path);
         }
 
-        $slide->update($request->only('title', 'subtitle', 'description', 'button_text', 'button_link'));
-
-        return redirect()->route('admin.slides.index')->with('success', 'Slide updated successfully.');
+        // Store the new image and update the path
+        $imagePath = $request->file('image')->store('slides', 'public');
+        $slide->image_path = $imagePath;
     }
+
+    // Update the slide with the validated data
+    $slide->update($request->only('title', 'subtitle', 'description', 'button_text', 'button_link'));
+
+    // Redirect with success message
+    return redirect()->route('admin.slides.index')->with('success', 'Slide updated successfully.');
+}
+
 
 
     public function destroy(Slide $slide)
