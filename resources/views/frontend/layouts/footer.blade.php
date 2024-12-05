@@ -11,7 +11,7 @@
                 <div class="col-lg-4">
                     <div class="widget footer-widget">
                         <div class="footer-logo mb-3">
-                            <img src="{{ asset('img/logo.png') }}" alt="logo" style="height: 241px; width: 237px;">
+                            <img src="{{ asset('img/logo.png') }}" alt="logo" class="footer_logo">
                         </div>
                     </div>
                 </div>

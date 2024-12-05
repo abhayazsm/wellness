@@ -185,12 +185,65 @@ About Area
             <span class="sec-subtitle5">Welcome to <span class="inner-text">Integrated Wellness
                     Service</span></span>
             <h2 class="sec-title4">Our Philosophy of Wellness <span class="inner-text"></span></h2>
-            <p class="quote-text2">Brief introduction to the core values of Integrated Wellness Services,
+            <!-- <p class="quote-text2">Brief introduction to the core values of Integrated Wellness Services,
                 highlighting a holistic, non-invasive approach to health that promotes the body’s natural ability to
-                repair and renew.</p>
+                repair and renew.</p> -->
+            <div class="benefit-list">
+                <ul class="">
+                    <li>
+                        <div class="row">
+                            <div class="col-1 text-center">
+                                <i class="far fa-check-square w-100"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Identify and address root causes of health challenges.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-1 text-center">
+                                <i class="far fa-check-square w-100"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Customized solutions for acute and chronic conditions.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-1 text-center">
+                                <i class="far fa-check-square w-100"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Enhance overall vitality and wellbeing.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-1 text-center">
+                                <i class="far fa-check-square w-100"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Promote longevity through balanced lifestyle and nutritional choices.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-1 text-center">
+                                <i class="far fa-check-square w-100"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Support for all ages—from young children to older adults.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
             <div class="vs-btn-group">
-                <a href="{{ route('services', $services[0]->slug) }}" class="vs-btn style10">Discover Our Approach<i
-                        class="far fa-arrow-right"></i></a>
+                <a href="{{ route('about-us')}}" class="vs-btn style10">Know More<i class="far fa-arrow-right"></i></a>
                 <!-- <a href="tel:+44123456789" class="vs-btn style11"><i class="fal fa-phone"></i>Make A Call</a> -->
             </div>
         </div>
@@ -324,22 +377,25 @@ why choose start
 ==============================-->
 
 <section class="space-top space-extra-bottom ">
-<div class="shape-mockup jump d-none d-xxl-block" data-left="1%" data-top="-5%"><img
-        src="{{ asset('img/shape/flower-1-2.png') }}" alt="flower"></div>
+<!-- <div class="shape-mockup jump d-none d-xxl-block" data-left="1%" data-top="-5%">
+    <img src="{{ asset('img/shape/flower-1-2.png') }}" alt="flower">
+</div> -->
 <div class="container">
     <div class="row justify-content-center text-center">
         <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.2s">
             <div class="title-area">
                 <h2 class="sec-title4">Why Choose Integrated Wellness?</h2>
-                <p class="sec-text"><i>Personalized Support for Every Step of Your Health Journey</i></p>
+                
             </div>
         </div>
     </div>
     <div class="row  wow fadeInUp" data-wow-delay="0.3s">
         <div class="col-md-6">
-            <h5>Benefits of Bioenergetic Testing, Nutritional Guidance, and Wellness Coaching:</h5>
+            <h5>Personalized Support for Every Step of Your Health Journey</h5>
+            
             <div class="benefit-list">
-                <ul class="">
+            <p class="sec-text1">Benefits of Bioenergetic Testing, Nutritional Guidance, and Wellness Coaching:</p>
+                <!-- <ul class="">
                     <li>
                         <div class="row">
                             <div class="col-1 text-center">
@@ -391,8 +447,16 @@ why choose start
                         </div>
                     </li>
                 </ul>
+                <a href="{{ url('about-us') }}" class="vs-btn style10">See How We Can Help You</a> -->
 
-                <a href="{{ url('about-us') }}" class="vs-btn style10">See How We Can Help You</a>
+                <ul class="mt-1">
+                    <li><strong>Comprehensive Health Assessments</strong><br>
+                        <p class="sec-text1">Gain a deep understanding of your health with detailed evaluations and personalized recommendations.</p>
+                    </li>
+                    <li><strong>Ongoing Monitoring and Adjustments</strong><br>
+                        <p class="sec-text1">Your health journey evolves, and so do we. Regular check-ins ensure that your plan adapts to your changing needs.</p>
+                    </li>    
+                </ul>
             </div>
         </div>
         <div class="col-md-6">
@@ -403,27 +467,27 @@ why choose start
 </section>
 
 <!-- Divider -->
-<div class="divider-style1 ">
+<!-- <div class="divider-style1 ">
 <div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
-</div>
+</div> -->
 
 <!--==============================
 Gallery Area
 ==============================-->
-<section class="space-top space-extra-bottom">
-    <div class="container">
+<!-- <section class="space-top space-extra-bottom">
+    <div class="container"> -->
         <!-- Title Area -->
-        <div class="row justify-content-center text-center">
+        <!-- <div class="row justify-content-center text-center">
             <div class="col-md-9 col-lg-7 col-xl-6">
                 <div class="title-area">
                     <h2 class="sec-title4">Media</h2>
                     <p class="sec-text">Media showcases the serene and rejuvenating atmosphere of our wellness facilities and services.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Tabs -->
-        <div class="row justify-content-center text-center mb-4">
+        <!-- <div class="row justify-content-center text-center mb-4">
             <div class="col-md-12">
                 <ul class="nav nav-tabs justify-content-center" style="border-bottom: 0px solid #dee2e6" id="galleryTabs" role="tablist">
                     <li class="nav-item">
@@ -437,10 +501,10 @@ Gallery Area
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
         <!-- Gallery Items -->
-        <div class="row filter-active gx-4 gy-gx wow fadeInUp" data-wow-delay="0.3s" id="galleryContent">
+        <!-- <div class="row filter-active gx-4 gy-gx wow fadeInUp" data-wow-delay="0.3s" id="galleryContent">
             @foreach ($mediaItems as $item)
                 <div class="col-sm-6 col-lg-4 col-xxl-auto filter-item {{ $item->type }}">
                     <div class="gallery-style3 image-scale-hover">
@@ -454,10 +518,10 @@ Gallery Area
                     </div>
                 </div>
             @endforeach
-        </div>
+        </div> -->
 
         <!-- View More Button -->
-        @if ($remainingCount > 0)
+        <!-- @if ($remainingCount > 0)
             <div class="row justify-content-center mt-4">
                 <div class="col-auto">
                     <button id="viewMoreBtn" class="btn btn-primary" data-offset="5" style="display: block;">View More</button>
@@ -471,17 +535,17 @@ Gallery Area
             </div>
         @endif
     </div>
-</section>
+</section> -->
 
 <!-- Divider -->
-<div class="divider-style1 ">
+<!-- <div class="divider-style1 ">
 <div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
-</div>
+</div> -->
 
 <!--==============================
 Blog Area
 ==============================-->
-<section class="space-top space-extra-bottom">
+<!-- <section class="space-top space-extra-bottom">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.2s">
@@ -502,7 +566,7 @@ Blog Area
                                 <img class="w-100" src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
                             </a>
                         </div>
-                        <div class="blog-content">
+                        <div class="blog-content"> -->
                             <!-- <div class="blog-meta">
                                 <a href="#">
                                     <i class="fal fa-calendar-alt"></i>{{ $blog->created_at->format('d F, Y') }}
@@ -511,7 +575,7 @@ Blog Area
                                     <i class="fal fa-user"></i>By {{ $blog->author }}
                                 </a>
                             </div> -->
-                            <h3 class="blog-title h4">
+                            <!-- <h3 class="blog-title h4">
                                 <a href="{{ route('blog-detail', $blog->slug) }}">{{ $blog->title }}</a>
                             </h3>
                         </div>
@@ -520,7 +584,7 @@ Blog Area
             @endforeach
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Divider -->
 <div class="divider-style1 mb-4">
@@ -585,7 +649,7 @@ Testimonial Area
                 <div class="testi-content">
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p class="testi-text">I was dealing with chronic issues, and the bioenergetic approach gave me answers and solutions tailored to my body. I’m feeling better than I have in years!</p>
+                    <p class="testi-text">I was dealing with chronic issues, and the bioenergetic approach gave me answers services and solutions tailored to my body. I’m feeling better than I have in years!</p>
                     <h3 class="testi-name">Lily</h3>
                     <!-- <span class="testi-degi">Manager</span> -->
                 </div>

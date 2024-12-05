@@ -81,14 +81,11 @@
                     <h5>Enhanced Mental Clarity</h5>
                     <p> 
                        Our wellness coaching sessions helped an individual manage stress effectively, 
-                       leading to better focus and overall happiness in Enhanced Mental Clarity
-
+                       leading to better focus and overall happiness in Enhanced Mental Clarity.
                     </p>
                 </div>
            </div>
         </div>
-
-        
     </div>
 </section>
 
@@ -155,13 +152,12 @@
                         <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="testi-text">I was dealing with chronic issues, and the bioenergetic approach gave me
-                            answers and solutions tailored to my body. I’m feeling better than I have in years!</p>
+                            answers services and solutions tailored to my body. I’m feeling better than I have in years!</p>
                         <h3 class="testi-name">Lily</h3>
                         <!-- <span class="testi-degi">Manager</span> -->
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>

@@ -23,7 +23,7 @@
         <div class="vs-menu-area text-center">
             <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="{{ url('/') }}"><img src="{{ asset('img/mobile_header.png') }}" alt="" class="header_logo" width="50px"></a>
+                <a href="{{ url('/') }}"><img src="{{ asset('img/logo_header.png') }}" alt="" class="header_logo" width="50px"></a>
             </div>
             <div class="vs-mobile-menu">
                 <ul>
@@ -184,7 +184,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-auto menu-items">
                         <nav class="main-menu menu-style1 d-none d-lg-block">
                             <ul>
                                 @foreach ($menus[null] ?? [] as $menu)
@@ -201,15 +201,15 @@
                                 @endforeach
                             </ul>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-auto logo_img">
                             <div class="header-btns">
                                 <!-- <button class="icon-btn style3 searchBoxTggler d-none d-sm-inline-block"><i class="far fa-search"></i></button>
                                 <button class="icon-btn style3 sideMenuToggler d-none d-xl-inline-block"><i class="fal fa-bars"></i></button> -->
-                                <a href="{{ url('/intake') }}" class="vs-btn" style="padding:15px;">Intake </a>
+                                <a href="{{ url('/intake') }}" class="vs-btn mob-button">Appointment </a>
+                                <a href="{{ url('/intake') }}" class="vs-btn mob-button">Register </a>
                                 <!-- <button  class="vs-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Intake</button> -->
-                                <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i
-                                        class="fal fa-bars"></i></button>
-                                        
+                                <button class="vs-menu-toggle d-inline-block d-lg-none mob-button-toggle" type="button"><i
+                                        class="fal fa-bars"></i></button>          
                             </div>
                         </div>
                     </div>

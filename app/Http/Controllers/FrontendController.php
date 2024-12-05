@@ -23,7 +23,7 @@ class FrontendController extends Controller
         $mediaItems = Media::latest()->take(5)->get();
         $remainingCount = Media::count() - $mediaItems->count(); // Remaining items count
         $blogs = Blog::orderBy('created_at', 'desc')->get(); 
-        $services = Service::latest()->take(3)->get();
+        $services = Service::take(3)->get();
         
         return view('frontend/home', compact('slides', 'mediaItems', 'blogs', 'services', 'remainingCount'));
     }
@@ -36,7 +36,6 @@ class FrontendController extends Controller
 
     function submitAppointment(Request $request)
     {
-        // dd($request->all());
         $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',

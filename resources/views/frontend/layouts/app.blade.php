@@ -116,8 +116,46 @@
         }
         .logo_img{
             padding:0;
+            margin: auto;
+        }
+
+        .mob-button {
+            padding: 10px!important;
+            margin-bottom: 10px!important;
+        }
+
+        .mob-button-toggle{
+            width: 34px;
+            height: 34px;
+            margin-bottom: 10px;
+        }
+        .footer-logo{
+            text-align: center;
+        }
+        .footer_logo{
+            height: 150px!important;
+            width: 150px!important;
+        }
+        .footer-widget {
+            margin-bottom: 40px;
         }
     }
+
+    .footer_logo{
+        height: 240px; 
+        width: 240px;
+    }
+
+    .mob-button {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* .mob-button-toggle{
+        width: 45px;
+        height: 45px;
+        margin-bottom: 10px;
+    } */
 
     .header_logo{
         width:165px;
