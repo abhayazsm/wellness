@@ -63,7 +63,7 @@
                 </div>
                 <div class="text-center">
                     <a href="{{ route('appointment') }}"><button class="vs-btn" style="margin-right: 10px;">Appointment</button></a>
-                    <a href="tel:5164063272" class="vs-btn">Call</a>
+                    <a href="tel:+1 5164063272" class="vs-btn">Call</a>
                 </div>
             </div>
         </div>

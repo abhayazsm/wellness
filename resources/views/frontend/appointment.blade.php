@@ -41,8 +41,8 @@
                 <form action="{{ route('appointment.store') }}" method="POST" class="form-style2">
                     @csrf
                     <h2 class="form-title">Book Appointment</h2>
-                    <p class="form-label">Today For Free</p>
-
+                    <p class="form-label mb-2">Let’s Get Started</p>
+                    <p>Reach out today to schedule a consultation or learn more about how I can support you to schedule a free 15 min consultation. Your path to vibrant health starts here, and I can’t wait to walk it with you.</p>
                     <!-- Name Field -->
                     <div class="form-group">
                         <input 
@@ -155,7 +155,7 @@
                                     <p class="vs-info"><i class="fal fa-envelope"></i><a href="mailto:example@info.com" class="text-inherit">example@info.com</a></p>
                                 </div>
                                 <div class="col-auto">
-                                    <p class="vs-info"><i class="fal fa-phone-alt"></i><a href="tel:+5164063272" class="text-inherit">5164063272</a></p>
+                                    <p class="vs-info"><i class="fal fa-phone-alt"></i><a href="tel:++1 5164063272" class="text-inherit">+1 5164063272</a></p>
                                 </div>
                             </div>
                         </div>

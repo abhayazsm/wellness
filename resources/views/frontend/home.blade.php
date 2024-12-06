@@ -169,86 +169,135 @@ header    close
 About Area
 ==============================-->
 <section class=" space-top space-extra-bottom">
-<div class="container">
-    <div class="row gx-60">
-        <div class="col-lg-6  wow fadeInUp" data-wow-delay="0.2s">
-            <div class="img-box7">
-                <div class="img-1">
-                    <img src="{{ asset('img/about/ab-6-1.jpg') }}" alt="thumb">
-                    <div class="img-4"><img src="{{ asset('img/shape/dots-shape.png') }}" alt="thumb"></div>
+    <div class="container">
+        <div class="row gx-60">
+            <div class="col-lg-6  wow fadeInUp" data-wow-delay="0.2s">
+                <div class="img-box7">
+                    <div class="img-1">
+                        <img src="{{ asset('img/about/ab-6-1.jpg') }}" alt="thumb">
+                        <div class="img-4"><img src="{{ asset('img/shape/dots-shape.png') }}" alt="thumb"></div>
+                    </div>
+                    <!-- <div class="img-2"><img src="{{ asset('img/about/ab-6-2.jpg') }}" alt="thumb"></div> -->
+                    <!-- <div class="img-3"><img src="{{ asset('img/about/ab-6-3.jpg') }}" alt="thumb"></div> -->
                 </div>
-                <!-- <div class="img-2"><img src="{{ asset('img/about/ab-6-2.jpg') }}" alt="thumb"></div> -->
-                <!-- <div class="img-3"><img src="{{ asset('img/about/ab-6-3.jpg') }}" alt="thumb"></div> -->
             </div>
-        </div>
-        <div class="col-lg-6 align-self-center  wow fadeInUp" data-wow-delay="0.3s">
-            <span class="sec-subtitle5">Welcome to <span class="inner-text">Integrated Wellness
-                    Service</span></span>
-            <h2 class="sec-title4">Our Philosophy of Wellness <span class="inner-text"></span></h2>
-            <!-- <p class="quote-text2">Brief introduction to the core values of Integrated Wellness Services,
-                highlighting a holistic, non-invasive approach to health that promotes the body’s natural ability to
-                repair and renew.</p> -->
-            <div class="benefit-list">
-                <ul class="">
-                    <li>
-                        <div class="row">
-                            <div class="col-1 text-center">
-                                <i class="far fa-check-square w-100"></i>
+            <div class="col-lg-6 align-self-center  wow fadeInUp" data-wow-delay="0.3s">
+                <span class="sec-subtitle5 mt-3">Welcome to <span class="inner-text">Integrated Wellness
+                        Service</span></span>
+                <!-- <h2 class="sec-title4">Our Philosophy of Wellness <span class="inner-text"></span></h2> -->
+                <p class="quote-text2">At Integrated Wellness Services .We believe true health goes beyond treating symptoms—it’s about uncovering the root cause of imbalances and restoring harmony to the body, mind, and spirit. 
+                    With over 20 years of experience as a dedicated physical therapist, Your brings a wealth of expertise in movement, rehabilitation, and functional health. Now, she’s expanding her practice to offer cutting-edge bioenergetic testing and personalized nutritional supplementation, designed to help you achieve optimal wellness from the inside out.</p>
+                <div class="benefit-list">
+                    <ul class="">
+                        <li>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <i class="far fa-check-square w-100"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Identify and address root causes of health challenges.</p>
+                                </div>
                             </div>
-                            <div class="col-11">
-                                <p>Identify and address root causes of health challenges.</p>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <i class="far fa-check-square w-100"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Customized solutions for acute and chronic conditions.</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-1 text-center">
-                                <i class="far fa-check-square w-100"></i>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <i class="far fa-check-square w-100"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Enhance overall vitality and wellbeing.</p>
+                                </div>
                             </div>
-                            <div class="col-11">
-                                <p>Customized solutions for acute and chronic conditions.</p>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <i class="far fa-check-square w-100"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Promote longevity through balanced lifestyle and nutritional choices.</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-1 text-center">
-                                <i class="far fa-check-square w-100"></i>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <i class="far fa-check-square w-100"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Support for all ages—from young children to older adults.</p>
+                                </div>
                             </div>
-                            <div class="col-11">
-                                <p>Enhance overall vitality and wellbeing.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-1 text-center">
-                                <i class="far fa-check-square w-100"></i>
-                            </div>
-                            <div class="col-11">
-                                <p>Promote longevity through balanced lifestyle and nutritional choices.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-1 text-center">
-                                <i class="far fa-check-square w-100"></i>
-                            </div>
-                            <div class="col-11">
-                                <p>Support for all ages—from young children to older adults.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="vs-btn-group">
-                <a href="{{ route('about-us')}}" class="vs-btn style10">Know More<i class="far fa-arrow-right"></i></a>
-                <!-- <a href="tel:+44123456789" class="vs-btn style11"><i class="fal fa-phone"></i>Make A Call</a> -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="vs-btn-group">
+                    <a href="{{ route('about-us')}}" class="vs-btn style10">Know More<i class="far fa-arrow-right"></i></a>
+                    <!-- <a href="tel:+44123456789" class="vs-btn style11"><i class="fal fa-phone"></i>Make A Call</a> -->
+                </div>
             </div>
         </div>
     </div>
+</section>
+
+<!-- Divider -->
+<div class="divider-style1 ">
+<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
 </div>
+<!--==============================
+Service Area
+==============================-->
+<section class="space mb-4 mt-4">
+    <div class="parallax" data-parallax-image="{{ asset('img/common/service-bg.jpg') }}"></div>
+    <div class="container z-index-common">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp " data-wow-delay="0.2s">
+                <div class="title-area m-0">
+                    <span class="sec-subtitle text-white mb-0">Our Integrated Wellness Services</span>
+                    <h2 class="sec-title text-white m-2">Our Services</h2>
+                </div>
+            </div>
+        </div>
+        <p class="sec-text1 text-white mb-4">For me, this work is more than a job—it’s my calling. I’ve always been fascinated by the intricate ways the body, mind, and spirit are connected. Over the years, I’ve seen firsthand how addressing the root causes of imbalances can lead to profound transformation. Whether it’s helping someone find relief from chronic pain, boosting their energy, or improving their overall well-being, my greatest joy is witnessing people thrive.</p>
+        <div class="row gx-20 gy-gx service5-slider justify-content-center vs-carousel wow fadeInUp" 
+            data-wow-delay="0.2s" 
+            data-slide-show="3" 
+            data-lg-slide-show="3" 
+            data-md-slide-show="2" 
+            data-sm-slide-show="1">
+            @foreach ($services as $service)
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="service-style5" style="height: 28rem;">
+                        <div class="service-icon">
+                            <img src="{{ asset('storage/' . $service->image) }}" alt="icon">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title h4" >
+                                <a style="font-size: 25px;" class="text-inherit" href="{{ route('services', $service->slug) }}">
+                                    {{ $service->title }}
+                                </a>
+                            </h4>
+                            <!-- <p class="service-text">{{ $service->title, 100 }}</p> -->
+                            <p class="service-text">{!! Str::limit($service->short_desc, 150) !!}</p>
+                        </div>
+                        <a href="{{ route('services', $service->slug) }}" class="service-btn">
+                            <i class="far fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
 </section>
 
 <!-- Divider -->
@@ -314,55 +363,6 @@ Benefits Area
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Divider -->
-<div class="divider-style1 ">
-<div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
-</div>
-<!--==============================
-Service Area
-==============================-->
-<section class="space mb-4 mt-4">
-    <div class="parallax" data-parallax-image="{{ asset('img/common/service-bg.jpg') }}"></div>
-    <div class="container z-index-common">
-        <div class="row justify-content-center text-center">
-            <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp " data-wow-delay="0.2s">
-                <div class="title-area">
-                    <span class="sec-subtitle text-white">Our Integrated Wellness Services</span>
-                    <h2 class="sec-title text-white">Our Services</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row gx-20 gy-gx service5-slider justify-content-center vs-carousel wow fadeInUp" 
-            data-wow-delay="0.2s" 
-            data-slide-show="3" 
-            data-lg-slide-show="3" 
-            data-md-slide-show="2" 
-            data-sm-slide-show="1">
-            @foreach ($services as $service)
-                <div class="col-md-6 col-lg-3 col-xl-3">
-                    <div class="service-style5">
-                        <div class="service-icon">
-                            <img src="{{ asset('storage/' . $service->image) }}" alt="icon">
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title h4" >
-                                <a style="font-size: 25px;" class="text-inherit" href="{{ route('services', $service->slug) }}">
-                                    {{ $service->title }}
-                                </a>
-                            </h4>
-                            <!-- <p class="service-text">{{ $service->title, 100 }}</p> -->
-                            <p class="service-text">{!! Str::limit($service->short_desc, 150) !!}</p>
-                        </div>
-                        <a href="{{ route('services', $service->slug) }}" class="service-btn">
-                            <i class="far fa-plus"></i>
-                        </a>
-                    </div>
-                </div>
-            @endforeach
         </div>
     </div>
 </section>
@@ -450,10 +450,10 @@ why choose start
                 <a href="{{ url('about-us') }}" class="vs-btn style10">See How We Can Help You</a> -->
 
                 <ul class="mt-1">
-                    <li><strong>Comprehensive Health Assessments</strong><br>
+                    <li><h6 class="sec-title6 mb-2">Comprehensive Health Assessments</h6>
                         <p class="sec-text1">Gain a deep understanding of your health with detailed evaluations and personalized recommendations.</p>
                     </li>
-                    <li><strong>Ongoing Monitoring and Adjustments</strong><br>
+                    <li><h6 class="sec-title6 mb-2">Ongoing Monitoring and Adjustments</h6>
                         <p class="sec-text1">Your health journey evolves, and so do we. Regular check-ins ensure that your plan adapts to your changing needs.</p>
                     </li>    
                 </ul>
@@ -617,10 +617,11 @@ Testimonial Area
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     <p class="testi-text">
-                        Bioenergetic testing revealed insights about my health that traditional methods hadn’t 
-                        uncovered. With nutritional guidance and coaching, I’m feeling better than I have in years!
+                    Working with Anubha Goel has been life-changing. After struggling with chronic fatigue and digestive issues for years,
+                    I felt like I had tried everything with no real answers. Her bioenergetic testing gave me insights into my body
+                    I had never considered before.
                     </p>
-                    <h3 class="testi-name">Sarah</h3>
+                    <h3 class="testi-name">Tanya Serrie</h3>
                     <!-- <span class="testi-degi">Business Man</span> -->
                 </div>
             </div>
@@ -634,8 +635,8 @@ Testimonial Area
                 <div class="testi-content">
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p class="testi-text">The coaching and nutritional guidance helped me develop a wellness routine that I love. My energy is up, and I’m much healthier overall.I’m feeling better than I have in years!</p>
-                    <h3 class="testi-name">Mike</h3>
+                    <p class="testi-text">As a mother, I was at my wit's end trying to help my 11-year-old daughter. She had been snoring loudly for years only with temporary relief for a few months right after  we got her Adenoids removed surgically 3 years ago. And the results speak for themselves!</p>
+                    <h3 class="testi-name">Shruti Thakur</h3>
                     <!-- <span class="testi-degi">Customer</span> -->
                 </div>
             </div>
@@ -649,8 +650,8 @@ Testimonial Area
                 <div class="testi-content">
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p class="testi-text">I was dealing with chronic issues, and the bioenergetic approach gave me answers services and solutions tailored to my body. I’m feeling better than I have in years!</p>
-                    <h3 class="testi-name">Lily</h3>
+                    <p class="testi-text">I can’t thank Anubha Goel enough for the impact her bioenergetic testing and nutritional guidance have had on my life. As a 46-year-old software professional, I was constantly exhausted, struggling to focus, and feeling like I was running on empty every single day.</p>
+                    <h3 class="testi-name">Ashton Conroy</h3>
                     <!-- <span class="testi-degi">Manager</span> -->
                 </div>
             </div>

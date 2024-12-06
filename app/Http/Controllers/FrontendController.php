@@ -23,7 +23,7 @@ class FrontendController extends Controller
         $mediaItems = Media::latest()->take(5)->get();
         $remainingCount = Media::count() - $mediaItems->count(); // Remaining items count
         $blogs = Blog::orderBy('created_at', 'desc')->get(); 
-        $services = Service::take(3)->get();
+        $services = Service::take(3)->orderBy('created_at', 'ASC')->get();
         
         return view('frontend/home', compact('slides', 'mediaItems', 'blogs', 'services', 'remainingCount'));
     }

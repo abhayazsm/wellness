@@ -29,10 +29,10 @@
                     <div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3888.0179275319265!2d77.59380432405057!3d12.970704564899968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%2022%2C%2012%2C%20Vittal%20Mallya%20Rd%2C%20KG%20Halli%2C%20D&#39;%20Souza%20Layout%2C%20Ashok%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560001%2C%20India!5e0!3m2!1sen!2sin!4v1731485447470!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                     <div class="contact-table">
                         <div class="tr">
-                            <div class="tb-col">
+                            <!-- <div class="tb-col">
                                 <span class="th">Address :</span>
                                 <span class="td">23, Pine street , Plainview, NY 11803</span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="tr">
                             <div class="tb-col">
@@ -46,15 +46,15 @@
                         </div>
                     </div>
                     <span class="h4">
-                        <a href="tel:5164063272" class="text-inherit"><i class="fal fa-headset me-3 text-theme"></i>5164063272</a>
+                        <a href="tel:+1 5164063272" class="text-inherit"><i class="fal fa-headset me-3 text-theme"></i>+1 5164063272</a>
                     </span>
                 </div>
                 <div class="col-lg-6 mb-40 mb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="text-center text-lg-start">
                         <span class="sec-subtitle">Experience</span>
-                        <h2 class="sec-title3 h1 text-uppercase mb-xxl-2 pb-xxl-1">Get in <span class="text-theme">Touch</span></h2>
-                        <div class="col-xxl-10 pb-xl-3">
-                            <p class="pe-xxl-4">We think your skin should look and refshed matter Nourish your outer inner beauty with our essential</p>
+                        <h2 class="sec-title3 h1 text-uppercase mb-xxl-2 pb-xxl-1">Let’s <span class="text-theme">Get Started</span></h2>
+                        <div class="col-xxl-10 pb-xxl-3">
+                            <p class="pe-xxl-4">Reach out today to schedule a consultation or learn more about how I can support you to schedule a free 15 min consultation. Your path to vibrant health starts here, and I can’t wait to walk it with you.</p>
                         </div>
                     </div>
                     @if (session('success'))

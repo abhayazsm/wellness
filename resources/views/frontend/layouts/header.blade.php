@@ -53,13 +53,13 @@
                 <div class="footer-logo">
                     <a href="index.php"><img src="{{ asset('img/logo_header.png') }}" alt="" class="header_logo" width="80px"></a>
                 </div>
-                <div class="info-media1">
+                <!-- <div class="info-media1">
                     <div class="media-icon"><i class="fal fa-map-marker-alt"></i></div>
                     <span class="media-label">23, Pine street , Plainview, NY 11803</span>
-                </div>
+                </div> -->
                 <div class="info-media1">
                     <div class="media-icon"><i class="far fa-phone-alt "></i></div>
-                    <span class="media-label"><a href="tel:5164063272" class="text-inherit">5164063272</a></span>
+                    <span class="media-label"><a href="tel:+1 5164063272" class="text-inherit">+1 5164063272</a></span>
                 </div>
                 <div class="info-media1">
                     <div class="media-icon"><i class="fal fa-envelope"></i></div>
@@ -146,14 +146,14 @@
                     <div class="col-auto text-center py-2 py-md-0">
                         <div class="header-links style-white">
                             <ul>
-                                <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>23, Pine street , Plainview, NY 11803</li>
-                                <li><i class="far fa-phone-alt"></i><a href="tel:+5164063272">5164063272</a></li>
+                                <!-- <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>23, Pine street , Plainview, NY 11803</li> -->
+                                <li><i class="far fa-phone-alt"></i><a href="tel:+1 5164063272">+1 5164063272</a></li>
                                 <li><i class="far fa-envelope"></i><a
                                         href="mailto:info@wellnessintegrated.co">info@wellnessintegrated.co</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto d-none d-md-block">
+                    <!-- <div class="col-auto d-none d-md-block">
                         <div class="social-style4">
                             <span class="social-title">Follow Us:</span>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -162,7 +162,7 @@
                             <a href="#"><i class="fab fa-google"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -205,7 +205,7 @@
                             <div class="header-btns">
                                 <!-- <button class="icon-btn style3 searchBoxTggler d-none d-sm-inline-block"><i class="far fa-search"></i></button>
                                 <button class="icon-btn style3 sideMenuToggler d-none d-xl-inline-block"><i class="fal fa-bars"></i></button> -->
-                                <a href="{{ url('/intake') }}" class="vs-btn mob-button">Appointment </a>
+                                <a href="{{ url('/appointment') }}" class="vs-btn mob-button">Appointment </a>
                                 <a href="{{ url('/intake') }}" class="vs-btn mob-button">Register </a>
                                 <!-- <button  class="vs-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Intake</button> -->
                                 <button class="vs-menu-toggle d-inline-block d-lg-none mob-button-toggle" type="button"><i

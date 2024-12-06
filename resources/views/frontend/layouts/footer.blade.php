@@ -1,4 +1,4 @@
-<?php $services = DB::table('services')->get();
+<?php $services = DB::table('services')->orderBy('created_at', 'ASC')->get();
     ?>
 <footer class="footer-wrapper footer-layout4">
     <div class="shape-mockup jump d-none d-xxl-block" data-right="4%" data-bottom="30%"><img
@@ -48,14 +48,14 @@
                         <div class="recent-post-wrap">
                             <p class="footer-info">
                                 <a href="tel:+01234567890" class="text-inherit" style="color:black;"><i
-                                        class="far fa-phone-alt text-theme me-2"></i>5164063272</a> <br>
+                                        class="far fa-phone-alt text-theme me-2"></i>+1 5164063272</a> <br>
                                 <a class="text-inherit" style="color:black;" href="mailto:info@wellnessintegrated.co"><i
                                         class="fal fa-envelope text-theme me-2"></i>info@wellnessintegrated.co</a> <br>
 
                              </p>
-                            <p><i class="fal fa-map text-theme me-2"></i>
+                            <!-- <p><i class="fal fa-map text-theme me-2"></i>
                             23, Pine street , Plainview, NY 11803
-                            </p>
+                            </p> -->
                         </div>
                     </div>
                 </div>
