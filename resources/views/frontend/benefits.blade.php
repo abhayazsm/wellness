@@ -19,8 +19,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!--==============================
+    </div><!--==============================
     Service Area
     ==============================-->
 
@@ -31,51 +30,51 @@
             <div class="shape-mockup jump d-none d-xxl-block" data-top="-10%" data-right="0"><img src="{{ asset('img/hero/hero-leaf-5.png') }}" alt="shape"></div>
             <div class="container-xl">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-md-6 col-lg-5 col-xxl-auto">
+                    <div class="col-md-6 col-lg-5 col-xxl-auto mt-1">
                         <div class="service-style1 reverse">
                             <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-1.png') }}" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Enhanced Energy Levels</a></h3>
+                                <h3 class="service-title"><a href="#" class="text-inherit">Enhanced Energy Levels</a></h3>
                                 <p class="service-text">Experience a noticeable boost in daily energy through personalized wellness strategies that align with your body's unique needs.</p>
                             </div>
                         </div>
                         <div class="service-style1 reverse">
                             <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-2.png') }}" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Early Detection of Imbalances</a></h3>
+                                <h3 class="service-title"><a href="#" class="text-inherit">Early Detection of Imbalances</a></h3>
                                 <p class="service-text">Identify and address potential health concerns before they develop further, thanks to non-invasive bioenergetic testing.</p>
                             </div>
                         </div>
                         <div class="service-style1 reverse">
                             <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-3.png') }}" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Personalized Nutrition Plans</a></h3>
+                                <h3 class="service-title"><a href="#" class="text-inherit">Personalized Nutrition Plans</a></h3>
                                 <p class="service-text">Enjoy tailored nutritional guidance that supports digestion, weight management, and overall metabolic health.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-xxl-auto text-center d-none d-lg-block">
+                    <!-- <div class="col col-xxl-auto text-center d-none d-lg-block"> 
                         <img src="{{ asset('img/bg/sr-shape-1-1.png') }}" alt="shape" class="mt-n4">
-                    </div>
+                    </div>-->
                     <div class="col-md-6 col-lg-5 col-xxl-auto">
                         <div class="service-style1">
                             <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-4.png') }}" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Improved Mental Clarity</a></h3>
+                                <h3 class="service-title"><a href="#" class="text-inherit">Improved Mental Clarity</a></h3>
                                 <p class="service-text">Reduce stress and improve focus with wellness coaching designed to strengthen mental and emotional resilience.</p>
                             </div>
                         </div>
                         <div class="service-style1">
                             <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-5.png') }}" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Strengthened Immune System</a></h3>
+                                <h3 class="service-title"><a href="#" class="text-inherit">Strengthened Immune System</a></h3>
                                 <p class="service-text">Adopt holistic practices that fortify your immune system, promoting long-term health and disease prevention.</p>
                             </div>
                         </div>
                         <div class="service-style1">
                             <div class="vs-icon"><img src="{{ asset('img/icon/sr-i-1-6.png') }}" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Sustainable Healthy Habits</a></h3>
+                                <h3 class="service-title"><a href="#" class="text-inherit">Sustainable Healthy Habits</a></h3>
                                 <p class="service-text">Develop and maintain lasting lifestyle changes that support both physical and mental wellness under expert guidance.</p>
                             </div>
                         </div>
@@ -89,11 +88,11 @@
     <!--==============================
     About Area
     ==============================-->
-    <section class=" overflow-hidden space-top space-extra-bottom">
+     <!--<section class=" overflow-hidden space-top space-extra-bottom">
         <div class="shape-mockup jump-reverse-img d-none d-xxl-block" data-top="22%" data-left="-7%">
             <div class="curb-shape1"></div>
         </div>
-        <div class="shape-mockup jump-img  d-none d-xxxl-block" data-top="17%" data-right="13%"><img src="{{ asset('img/shape/leaf-1-4.png') }}" alt="shape"></div>
+       <div class="shape-mockup jump-img  d-none d-xxxl-block" data-top="17%" data-right="13%"><img src="{{ asset('img/shape/leaf-1-4.png') }}" alt="shape"></div>
         <div class="container">
             <div class="row gx-55">
                 <div class="col-lg-5 col-xxl-auto align-self-center wow fadeInUp" data-wow-delay="0.2s">
@@ -110,7 +109,7 @@
                                 <svg viewBox="0 0 408 579">
                                     <path id="textboxpath" d="M0 204C0 91.3339 91.3339 0 204 0V0C316.666 0 408 91.3339 408 204V316.879V375C408 487.666 316.666 579 204 579V579C91.3339 579 0 487.666 0 375V204Z"></path>
                                     <text>
-                                        <textPath href="#textboxpath" startOffset="810">Integrated Wellness Solution</textPath>
+                                        <textPath href="#textboxpath" style="font-size:28px;" startOffset="810">Integrated Wellness Services</textPath>
                                     </text>
                                 </svg>
                             </div>
@@ -145,7 +144,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
 
 @endsection

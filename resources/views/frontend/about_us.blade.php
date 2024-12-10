@@ -36,11 +36,11 @@
                 <h2 class="h3 pe-xxl-5 me-xxl-5 text-center">Anubha Goel</h2>
 
                 <p>
-                Meet Anubha Goel As a seasoned physical therapist, She has devoted her career to helping individuals overcome pain, recover from injury, and regain their strength. But her passion for health and well-being has always gone deeper. She understands that true healing begins when we address the root causes of dysfunction—whether they stem from physical strain, nutritional deficiencies, or energetic imbalances.
+                    Our Founder -Anubha Goel is a highly qualified physical therapist holding a Doctorate in Physical Therapy with  over 20 years of clinical experience, She has devoted her career to helping individuals overcome pain, recover from injury, and regain their strength. But her passion for health and well-being has always gone deeper. She understands that true healing begins when we address the root causes of dysfunction—whether they stem from physical strain, nutritional deficiencies, or energetic imbalances.
                 </p>
 
                 <p>
-                Her transition into bioenergetic testing and holistic health services reflects her commitment to providing a comprehensive approach to wellness. Using non-invasive bioenergetic assessments, Your identifies underlying stressors, imbalances, and nutritional needs to create tailored solutions for lasting health improvements. These insights allow her to recommend targeted supplementation and lifestyle adjustments that empower clients to take control of their well-being.
+                    Her transition into bioenergetic testing and holistic health services reflects her commitment to providing a comprehensive approach to wellness. Using non-invasive bioenergetic assessments, she identifies underlying stressors, imbalances, and nutritional needs to create tailored solutions for lasting health improvements. These insights equip her to recommend targeted supplementation and lifestyle adjustments that empower clients to take control of their well-being. 
                 </p>
 
                 <!-- <p>
@@ -61,41 +61,34 @@
 <section class="mt-3 mb-3" style="background-color:#fdebe0">
     <div class="container">
         <div class="row justify-content-between gx-0 ">
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 mt-3 mb-2">
                 <h4 class="h3 pe-xxl-5 me-xxl-5 text-center">Our Passion</h4>
-                <p>
-                Passion for Empowering Wellness
-                For Anubha Goel,  helping clients isn’t just a profession—it’s a calling. Her empathetic approach ensures you feel supported, informed, and empowered every step of the way. She is passionate about partnering with you to unlock your body’s potential, enhance vitality, and achieve sustainable health.
+                <p class="text-center">
+                Our passion lies in empowering individuals to achieve optimal health and vitality by restoring balance to the body’s energy systems, unlocking its natural healing potential, and transforming lives through personalized care and innovative wellness solutions.
                 </p>
-                <p>
-                Your journey to wellness starts here. Ready to take the first step? Let’s work together to uncover the root causes of imbalance and create a personalized path to health and well-being.
-                </p>
+               
             </div>
-            <div class="col-md-6">
+            <!--<div class="col-md-6">
                 <div class="row text-center">
-                    <div><img src="{{ asset('img/passion.png') }}" style="max-width: 60%;" class="rounded" alt="about" class="w-100"></div>
+                    <div><img src="{{ asset('img/passion.png') }}" style="max-width: 50%;" class="rounded" alt="about" class="w-100"></div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
 
-<section class="mt-3 mb-4">
+<section class="">
     <div class="container">
         <div class="row justify-content-between gx-0 ">
-            <div class="col-md-6">
+            <!--<div class="col-md-6">
                 <div class="row text-center">
-                    <div><img src="{{ asset('img/mission.png') }}" style="max-width: 52%;" class="rounded" alt="about" class="w-100"></div>
+                    <div><img src="{{ asset('img/mission.png') }}" style="max-width: 42%;" class="rounded" alt="about" class="w-100"></div>
                 </div>
-            </div>
-            <div class="col-md-6 mt-3">
+            </div>-->
+            <div class="col-md-12 mt-3 mb-2">
                 <h4 class="h3 pe-xxl-5 me-xxl-5 text-center">Our Mission</h4>
-                <p>
-                My Mission for Your Wellness
-                I’m here to empower you to take charge of your health and embrace a life of balance, vitality, and joy. By addressing the root causes of dysfunction, I believe we can unlock your body’s natural ability to heal and thrive.
-                </p>
-                <p>
-                If you’re ready to explore a holistic approach to your health, I’d love to work with you. Together, we can uncover the solutions that work best for you and help you achieve your wellness goals.
+                <p class="text-center">
+                    Our mission is to inspire and guide individuals on their journey to optimal health by providing innovative, science-driven solutions that restore balance, enhance vitality, and promote lasting well-being.
                 </p>
             </div>
         </div>

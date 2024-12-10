@@ -188,6 +188,15 @@
         height: auto !important; 
         position: relative !important; 
     }
+
+    .btn-close i {
+        font-size: 32px;
+        transition: color 0.3s, transform 0.3s;
+    }
+    .btn-close i:hover {
+        color: red;
+        transform: scale(1.2);
+    }
         
     </style>
 </head>
@@ -471,8 +480,47 @@
         });
     });
 
-</script>
 
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(function () {
+        if (!localStorage.getItem('modalShown')) {
+            // Show the modal
+            var myModal = new bootstrap.Modal(document.getElementById('bioenergeticModal'), {});
+            myModal.show();
+
+            // Set the flag in local storage
+            // localStorage.setItem('modalShown', 'true');
+
+            // Make an AJAX call to store the visit count
+            fetch('/api/store-visit-count', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content') // For Laravel
+            },
+            body: JSON.stringify({
+                visit_type: 'modal_open'
+            })
+            })
+            .then(response => response.json())
+            .then(data => {
+            console.log('Visit count updated:', data);
+            })
+            .catch(error => {
+            console.error('Error updating visit count:', error);
+            });
+        }
+        }, 5000); // 5 seconds delay
+    });
+
+    function handleClick(event) {
+        // Set the flag in local storage
+        localStorage.setItem('modalShown', 'true');
+        
+        // Allow redirection to the href
+        window.location.href = event.target.href;
+    }
+</script>
 
 
 </body>

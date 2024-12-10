@@ -65,9 +65,9 @@ Route::get('/intake', 'FrontendController@intakeForm')->name('intake');
 Route::get('/fetch-media', [FrontendController::class, 'fetchMedia']);
 
 Route::post('/submit-intake-form', [FrontendController::class, 'submitIntakeForm'])->name('submit-intake-form');
+Route::post('/api/store-visit-count', [FrontendController::class, 'storeVisitCount']);
 
-
-Route::prefix('admin')->name('admin.')->group(function () {
+Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::resource('categories', CategoryController::class);
     Route::resource('blogs', BlogController::class);
     Route::resource('tags', TagController::class);

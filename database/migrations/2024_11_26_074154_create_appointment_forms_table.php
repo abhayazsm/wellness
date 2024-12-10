@@ -14,11 +14,12 @@ return new class extends Migration
         Schema::create('appointment_forms', function (Blueprint $table) {
             $table->id();
             $table->string('name'); // Name input placeholder
+            $table->string('last_name'); // Last Name input placeholder
             $table->string('email'); // Email input placeholder
             $table->string('phone'); // Phon input placeholder
             $table->string('service'); // Service input placeholder
             $table->string('date'); // Date input placeholder
-            $table->string('time'); // Button text
+            // $table->string('time'); // Button text
             $table->timestamps();
         });
     }

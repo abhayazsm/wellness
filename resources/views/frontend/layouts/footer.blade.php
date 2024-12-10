@@ -1,10 +1,10 @@
 <?php $services = DB::table('services')->orderBy('created_at', 'ASC')->get();
     ?>
 <footer class="footer-wrapper footer-layout4">
-    <div class="shape-mockup jump d-none d-xxl-block" data-right="4%" data-bottom="30%"><img
-            src="{{ asset('img/shape/flower-1-3.png') }}" alt="flower"></div>
-    <div class="shape-mockup jump-reverse d-none d-xxxl-block" data-left="1%" data-top="5%"><img
-            src="{{ asset('img/shape/b-s-1-3.png') }}" alt="flower"></div>
+    <!-- <div class="shape-mockup jump d-none d-xxl-block" data-right="4%" data-bottom="30%"><img
+            src="{{ asset('img/shape/flower-1-3.png') }}" alt="flower"></div> -->
+    <!-- <div class="shape-mockup jump-reverse d-none d-xxxl-block" data-left="1%" data-top="5%"><img
+            src="{{ asset('img/shape/b-s-1-3.png') }}" alt="flower"></div> -->
     <div class="widget-area" style="background-color: #fdebe0;">
         <div class="container">
             <div class="row justify-content-between gx-70">
@@ -63,21 +63,21 @@
         </div>
     </div>
     <div class="copyright-wrap">
-        <div class="container">
+        <div class="container text-center">
             <div class="row justify-content-between align-items-center">
-                <div class="col-md-auto text-center">
-                    <p class="copyright-text text-white">Copyright <i class="fal fa-copyright"></i> 2024 <a
-                            href="index.html"></a>. All Rights Reserved By <a
-                            href="https://www.azsmenterprises.com/"></a></p>
-                </div>
-                <div class="col-auto d-none d-md-block">
+                <!-- <div class="col-md-auto text-center"> -->
+                    <p class="copyright-text text-white">Copyright <i class="fal fa-copyright"></i> {{ date('Y') }}  <a
+                            href="index.html"></a>. All Rights Reserved.
+                            <!-- <a href="https://www.azsmenterprises.com/"></a></p> -->
+                <!-- </div> -->
+                <!-- <div class="col-auto d-none d-md-block">
                     <div class="social-style3 text-white">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

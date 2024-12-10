@@ -24,7 +24,7 @@
 <!--==============================
     About Area
     ==============================-->
-<section class=" space-top space-extra-bottom mt-4 mb-4">
+<!-- <section class=" space-top space-extra-bottom mt-4 mb-4">
     <div class="shape-mockup jump-img d-none d-xl-block" data-left="34%" data-bottom="1%"><img
             src="{{ asset('img/shape/leaf-1-6.png') }}" alt="shape"></div>
     <div class="container">
@@ -87,14 +87,14 @@
            </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!--==============================
     Testimonial Area
     ==============================-->
-<section class=" space-top space-extra-bottom">
-    <div class="parallax" data-parallax-image="{{ asset('img/bg/testi-bg-3-2.jpg') }}"></div>
+<section class=" space-top space-extra-bottom" style="background-color:#fdebe0">
+    <!-- <div class="parallax" data-parallax-image="{{ asset('img/bg/testi-bg-3-2.jpg') }}"></div> -->
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -105,8 +105,7 @@
                 </div>
             </div>
         </div>
-        <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.2s" data-slide-show="3" data-lg-slide-show="2"
-            data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true" data-lg-center-mode="true">
+        <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.2s" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
 
             <div class="col-lg-4">
                 <div class="testi-style3">
@@ -115,12 +114,11 @@
                     </div>
                     <div class="testi-content">
                         <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                 class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="testi-text">
-                            Bioenergetic testing revealed insights about my health that traditional methods hadn’t
-                            uncovered. With nutritional guidance and coaching, I’m feeling better than I have in years!
+                            Suffered for years with feeling tired all the time and persistent autoimmune digestive issues. Tried countless treatments with no relief untill I consulted Dr. Anubha . The Bioenergetic testing surprised me with hidden imbalances and since following the recommendations  Within 4 weeks, my energy levels and digestion have improved significantly.
                         </p>
-                        <h3 class="testi-name">Sarah</h3>
+                        <h3 class="testi-name">"Tanya Serrie"</h3><br><br><br><br><br>
                         <!-- <span class="testi-degi">Business Man</span> -->
                     </div>
                 </div>
@@ -134,10 +132,8 @@
                     <div class="testi-content">
                         <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <p class="testi-text">The coaching and nutritional guidance helped me develop a wellness routine
-                            that I love. My energy is up, and I’m much healthier overall.I’m feeling better than I have
-                            in years!</p>
-                        <h3 class="testi-name">Mike</h3>
+                        <p class="testi-text">My 11-year-old daughter, had been snoring loudly for years, affecting her sleep and focus. The bioenergetic testing identified imbalances in her systems. We followed the tailored plan that included imprinted remedy drops and nutritional supplements .Within a week, her snoring decreased by 80% .I am taken aback with the improvement in her energy levels & academic performance. I am incredibly grateful for Dr. Anubha for changing my daughter’s life with her expertise .</p>
+                        <h3 class="testi-name">"Shruti BS"</h3><br><br>
                         <!-- <span class="testi-degi">Customer</span> -->
                     </div>
                 </div>
@@ -151,14 +147,31 @@
                     <div class="testi-content">
                         <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <p class="testi-text">I was dealing with chronic issues, and the bioenergetic approach gave me
-                            answers services and solutions tailored to my body. I’m feeling better than I have in years!</p>
-                        <h3 class="testi-name">Lily</h3>
+                        <p class="testi-text">I can't thank Anubha Goel enough for the impact her bioenergetic testing and nutritional guidance have had on my life. As a 46-year-old software professional, I was constantly exhausted and thought my health issues were something I had to live with. After working with Anubha, she identified imbalances in my system and created a personalized plan, leading to significant improvements in my energy levels and focus. I’ve even been able to cut my blood pressure medication in half and wake up feeling rested, truly transforming my health.</p>
+                        <h3 class="testi-name">"Ashton Conroy"</h3>
                         <!-- <span class="testi-degi">Manager</span> -->
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="col-lg-4">
+                <div class="testi-style3">
+                    <span class="testi-icon"><i class="fas fa-quote-right"></i></span>
+                    <div class="testi-avater"><img src="{{ asset('img/common/test-user.png') }}" alt="Testimonial Author">
+                    </div>
+                    <div class="testi-content">
+                        <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="testi-text">Around my  56th birthday ,  I was on the verge of surgery due to debilitating low back pain that severely limited my daily activities. Deciding to try bioenergetic testing, I received a comprehensive assessment that included nutritional guidance, exercises, and balancing remedies. To my surprise, not only did I avoid surgery, but I also returned to my previous level of activity within a short time . I'm incredibly grateful for this holistic approach.</p>
+                        <h3 class="testi-name">"Chuka Okonkwo"</h3>
+                        <br>
+                        <br>
+                        <!-- <span class="testi-degi">Manager</span> -->
+                    </div>
+                </div>
+            </div>
+
+            </div>
     </div>
 </section>
 

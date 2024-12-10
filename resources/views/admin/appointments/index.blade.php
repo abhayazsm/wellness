@@ -41,7 +41,7 @@
                     @forelse($appointments as $appointment)
                         <tr>
                             <td>{{ $appointment->id }}</td>
-                            <td>{{ $appointment->name }}</td>
+                            <td>{{ $appointment->name }} {{ $appointment->last_name }}</td>
                             <td>{{ $appointment->email }}</td>
                             <td>{{ $appointment->phone }}</td>
                             <td>{{ $appointment->service }}</td>

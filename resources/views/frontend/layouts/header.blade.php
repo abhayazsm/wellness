@@ -142,14 +142,14 @@
     <header class="vs-header header-layout4">
         <div class="header-top">
             <div class="container">
-                <div class="row justify-content-center justify-content-md-between align-items-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-auto text-center py-2 py-md-0">
                         <div class="header-links style-white">
                             <ul>
                                 <!-- <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>23, Pine street , Plainview, NY 11803</li> -->
                                 <li><i class="far fa-phone-alt"></i><a href="tel:+1 5164063272">+1 5164063272</a></li>
-                                <li><i class="far fa-envelope"></i><a
-                                        href="mailto:info@wellnessintegrated.co">info@wellnessintegrated.co</a></li>
+                                <li><i class="far fa-envelope"></i><a href="mailto:info@wellnessintegrated.co">info@wellnessintegrated.co</a></li>
+                                <li>Call or text schedule a free 15 minutes consultation</li>
                             </ul>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                                 <!-- <button class="icon-btn style3 searchBoxTggler d-none d-sm-inline-block"><i class="far fa-search"></i></button>
                                 <button class="icon-btn style3 sideMenuToggler d-none d-xl-inline-block"><i class="fal fa-bars"></i></button> -->
                                 <a href="{{ url('/appointment') }}" class="vs-btn mob-button">Appointment </a>
-                                <a href="{{ url('/intake') }}" class="vs-btn mob-button">Register </a>
+                                <!-- <a href="{{ url('/intake') }}" class="vs-btn mob-button">Register </a> -->
                                 <!-- <button  class="vs-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Intake</button> -->
                                 <button class="vs-menu-toggle d-inline-block d-lg-none mob-button-toggle" type="button"><i
                                         class="fal fa-bars"></i></button>          
@@ -300,4 +300,43 @@
     </div>
   </div>
 </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="bioenergeticModal" tabindex="-1" aria-labelledby="bioenergeticModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #fde7da; color: #fff;">
+        <h5 class="modal-title" id="bioenergeticModalLabel">Experience the Transformative Power of Bioenergetic Testing!</h5>
+        <button type="button" 
+                class="btn-close" 
+                data-bs-dismiss="modal" 
+                aria-label="Close" 
+                style="font-size: 24px; color: #333; cursor: pointer; margin:0;">
+            <i class="fa fa-window-close" 
+                aria-hidden="true" 
+                style="font-size: 32px; transition: color 0.3s, transform 0.3s;">
+            </i>
+        </button>
+      </div>
+      <div class="modal-body" style="padding: 20px; line-height: 1.8; font-size: 1.1rem;">
+        <p>As part of our exclusive introductory offer, get a comprehensive Bioenergetic Testing session, including one personalized remedy, valued at <strong>$299</strong>, for just <strong>$99</strong>!</p>
+        <ul style="list-style: none; padding-left: 0;">
+          <li>✅ Identify hidden energetic imbalances</li>
+          <li>✅ Restore balance and boost vitality</li>
+          <li>✅ Take the first step toward lasting wellness</li>
+        </ul>
+        <p>This special offer is available for a limited time—don’t miss out!</p>
+        <div style="text-align: center; margin-top: 20px;">
+        <a href="{{ url('/appointment') }}" 
+            class="vs-btn mob-button" 
+            onclick="handleClick(event)">
+            🔸 Click to Schedule Your First Session Today! 🔸
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 

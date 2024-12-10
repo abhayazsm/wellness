@@ -36,13 +36,15 @@ class FrontendController extends Controller
 
     function submitAppointment(Request $request)
     {
+        // dd($request->all());
         $request->validate([
-            'name' => 'required|string|max:255',
+            'name' => 'required|string',
+            'last_name'=>'required|string',
             'email' => 'required|email|max:255',
             'phone' => 'required',
             'service' => 'required',
             'date' => 'required|date',
-            'time' => 'required',
+            // 'time' => 'required',
         ]);
 
         AppointmentForm::create($request->all());
@@ -52,6 +54,22 @@ class FrontendController extends Controller
         $request->time;
 
         return redirect()->back()->with('success', $message);
+    }
+
+    public function storeVisitCount(Request $request)
+    {
+        // Validate request data
+        $request->validate([
+            'visit_type' => 'required|string'
+        ]);
+
+        // Store visit count in the database (example logic)
+        DB::table('website_visits')->insert([
+            'visit_type' => $request->visit_type,
+            'created_at' => now(),
+        ]);
+
+        return response()->json(['message' => 'Visit count stored successfully'], 200);
     }
     
 

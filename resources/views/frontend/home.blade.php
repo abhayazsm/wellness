@@ -182,11 +182,11 @@ About Area
                 </div>
             </div>
             <div class="col-lg-6 align-self-center  wow fadeInUp" data-wow-delay="0.3s">
-                <span class="sec-subtitle5 mt-3">Welcome to <span class="inner-text">Integrated Wellness
+                <span class="sec-subtitle5 mt-3"><span class="inner-text">Welcome to Integrated Wellness
                         Service</span></span>
                 <!-- <h2 class="sec-title4">Our Philosophy of Wellness <span class="inner-text"></span></h2> -->
-                <p class="quote-text2">At Integrated Wellness Services .We believe true health goes beyond treating symptoms—it’s about uncovering the root cause of imbalances and restoring harmony to the body, mind, and spirit. 
-                    With over 20 years of experience as a dedicated physical therapist, Your brings a wealth of expertise in movement, rehabilitation, and functional health. Now, she’s expanding her practice to offer cutting-edge bioenergetic testing and personalized nutritional supplementation, designed to help you achieve optimal wellness from the inside out.</p>
+                <p style="text-align: justify;" class="quote-text2">Founded by Dr. Anubha Goel, a distinguished clinician with a Doctorate in Physical Therapy, over 20 years of diverse clinical experience, and a passion for preventive healthcare using simplified, effective methods for restoring health and wellness.
+Our practice blends the basic principles of health and wellness with cutting-edge technology to identify hidden energetic imbalances and restore harmony by activating your body’s natural healing intelligence with the help of nutritional guidance and wellness coaching.</p>
                 <div class="benefit-list">
                     <ul class="">
                         <li>
@@ -263,12 +263,12 @@ Service Area
         <div class="row justify-content-center text-center">
             <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp " data-wow-delay="0.2s">
                 <div class="title-area m-0">
-                    <span class="sec-subtitle text-white mb-0">Our Integrated Wellness Services</span>
-                    <h2 class="sec-title text-white m-2">Our Services</h2>
+                    <!-- <span class="sec-subtitle text-white mb-0">Our Integrated Wellness Services</span> -->
+                    <h2 class="sec-title text-white m-2 mb-3">Our Services</h2>
                 </div>
             </div>
         </div>
-        <p class="sec-text1 text-white mb-4">For me, this work is more than a job—it’s my calling. I’ve always been fascinated by the intricate ways the body, mind, and spirit are connected. Over the years, I’ve seen firsthand how addressing the root causes of imbalances can lead to profound transformation. Whether it’s helping someone find relief from chronic pain, boosting their energy, or improving their overall well-being, my greatest joy is witnessing people thrive.</p>
+        <!--<p class="sec-text1 text-white mb-4">For me, this work is more than a job—it’s my calling. I’ve always been fascinated by the intricate ways the body, mind, and spirit are connected. Over the years, I’ve seen firsthand how addressing the root causes of imbalances can lead to profound transformation. Whether it’s helping someone find relief from chronic pain, boosting their energy, or improving their overall well-being, my greatest joy is witnessing people thrive.</p>-->
         <div class="row gx-20 gy-gx service5-slider justify-content-center vs-carousel wow fadeInUp" 
             data-wow-delay="0.2s" 
             data-slide-show="3" 
@@ -309,8 +309,19 @@ Benefits Area
 ==============================-->
 
 <section class=" space">
+    <div class="container">
+    <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.2s">
+                <div class="title-area">
+                    <h2 class="sec-title4">We can help with </h2>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="service-inner1">
-        <div class="shape-mockup jump d-none d-xxl-block" data-top="-10%" data-right="0"><img src="{{ asset('img/hero/hero-leaf-5.png') }}" alt="shape"></div>
+        <!-- <div class="shape-mockup jump d-none d-xxl-block" data-top="-10%" data-right="0"><img src="{{ asset('img/hero/hero-leaf-5.png') }}" alt="shape"></div> -->
         <div class="container-xl">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6 col-lg-5 col-xxl-auto">
@@ -337,7 +348,7 @@ Benefits Area
                     </div>
                 </div>
                 <div class="col col-xxl-auto text-center d-none d-lg-block">
-                    <img src="{{ asset('img/bg/sr-shape-1-1.png') }}" alt="shape" class="mt-n4">
+                    <!-- <img src="{{ asset('img/bg/sr-shape-1-1.png') }}" alt="shape" class="mt-n4"> -->
                 </div>
                 <div class="col-md-6 col-lg-5 col-xxl-auto">
                     <div class="service-style1">
@@ -368,19 +379,19 @@ Benefits Area
 </section>
 
 <!-- Divider -->
-<div class="divider-style1 ">
+<!-- <div class="divider-style1 ">
 <div class="divider-icon"><img src="{{ asset('img/logo_header.png') }}" alt="icon"></div>
-</div>
+</div> -->
 
 <!--==============================
 why choose start
 ==============================-->
 
-<section class="space-top space-extra-bottom ">
+<!-- <section class="space-top space-extra-bottom "> -->
 <!-- <div class="shape-mockup jump d-none d-xxl-block" data-left="1%" data-top="-5%">
     <img src="{{ asset('img/shape/flower-1-2.png') }}" alt="flower">
 </div> -->
-<div class="container">
+<!-- <div class="container">
     <div class="row justify-content-center text-center">
         <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.2s">
             <div class="title-area">
@@ -394,7 +405,7 @@ why choose start
             <h5>Personalized Support for Every Step of Your Health Journey</h5>
             
             <div class="benefit-list">
-            <p class="sec-text1">Benefits of Bioenergetic Testing, Nutritional Guidance, and Wellness Coaching:</p>
+            <p class="sec-text1">Benefits of Bioenergetic Testing, Nutritional Guidance, and Wellness Coaching:</p> -->
                 <!-- <ul class="">
                     <li>
                         <div class="row">
@@ -449,7 +460,7 @@ why choose start
                 </ul>
                 <a href="{{ url('about-us') }}" class="vs-btn style10">See How We Can Help You</a> -->
 
-                <ul class="mt-1">
+                <!-- <ul class="mt-1">
                     <li><h6 class="sec-title6 mb-2">Comprehensive Health Assessments</h6>
                         <p class="sec-text1">Gain a deep understanding of your health with detailed evaluations and personalized recommendations.</p>
                     </li>
@@ -464,7 +475,7 @@ why choose start
         </div>
     </div>
 </div>
-</section>
+</section> -->
 
 <!-- Divider -->
 <!-- <div class="divider-style1 ">
@@ -594,8 +605,8 @@ Blog Area
 <!--==============================
 Testimonial Area
 ==============================-->
-<section class=" space-top space-extra-bottom">
-<div class="parallax" data-parallax-image="{{ asset('img/bg/testi-bg-3-2.jpg') }}"></div>
+<section class=" space-top space-extra-bottom" style="background-color:#fdebe0">
+    <!-- <div class="parallax" data-parallax-image="{{ asset('img/bg/testi-bg-3-2.jpg') }}"></div> -->
 <div class="container mt-5">
     <div class="row justify-content-center text-center">
         <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.2s">
@@ -615,13 +626,11 @@ Testimonial Area
                 </div>
                 <div class="testi-content">
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     <p class="testi-text">
-                    Working with Anubha Goel has been life-changing. After struggling with chronic fatigue and digestive issues for years,
-                    I felt like I had tried everything with no real answers. Her bioenergetic testing gave me insights into my body
-                    I had never considered before.
+                        Suffered for years with feeling tired all the time and persistent autoimmune digestive issues. Tried countless treatments with no relief untill I consulted Dr. Anubha . The Bioenergetic testing surprised me with hidden imbalances and since following the recommendations  Within 4 weeks, my energy levels and digestion have improved significantly.
                     </p>
-                    <h3 class="testi-name">Tanya Serrie</h3>
+                    <h3 class="testi-name">"Tanya Serrie"</h3><br><br><br><br><br>
                     <!-- <span class="testi-degi">Business Man</span> -->
                 </div>
             </div>
@@ -635,8 +644,8 @@ Testimonial Area
                 <div class="testi-content">
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p class="testi-text">As a mother, I was at my wit's end trying to help my 11-year-old daughter. She had been snoring loudly for years only with temporary relief for a few months right after  we got her Adenoids removed surgically 3 years ago. And the results speak for themselves!</p>
-                    <h3 class="testi-name">Shruti Thakur</h3>
+                    <p class="testi-text">My 11-year-old daughter, had been snoring loudly for years, affecting her sleep and focus. The bioenergetic testing identified imbalances in her systems. We followed the tailored plan that included imprinted remedy drops and nutritional supplements .Within a week, her snoring decreased by 80% .I am taken aback with the improvement in her energy levels & academic performance. I am incredibly grateful for Dr. Anubha for changing my daughter’s life with her expertise .</p>
+                    <h3 class="testi-name">"Shruti BS"</h3><br><br>
                     <!-- <span class="testi-degi">Customer</span> -->
                 </div>
             </div>
@@ -650,8 +659,25 @@ Testimonial Area
                 <div class="testi-content">
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p class="testi-text">I can’t thank Anubha Goel enough for the impact her bioenergetic testing and nutritional guidance have had on my life. As a 46-year-old software professional, I was constantly exhausted, struggling to focus, and feeling like I was running on empty every single day.</p>
-                    <h3 class="testi-name">Ashton Conroy</h3>
+                    <p class="testi-text">I can't thank Anubha Goel enough for the impact her bioenergetic testing and nutritional guidance have had on my life. As a 46-year-old software professional, I was constantly exhausted and thought my health issues were something I had to live with. After working with Anubha, she identified imbalances in my system and created a personalized plan, leading to significant improvements in my energy levels and focus. I’ve even been able to cut my blood pressure medication in half and wake up feeling rested, truly transforming my health.</p>
+                    <h3 class="testi-name">"Ashton Conroy"</h3>
+                    <!-- <span class="testi-degi">Manager</span> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="testi-style3">
+                <span class="testi-icon"><i class="fas fa-quote-right"></i></span>
+                <div class="testi-avater"><img src="{{ asset('img/common/test-user.png') }}" alt="Testimonial Author">
+                </div>
+                <div class="testi-content">
+                    <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="testi-text">Around my  56th birthday ,  I was on the verge of surgery due to debilitating low back pain that severely limited my daily activities. Deciding to try bioenergetic testing, I received a comprehensive assessment that included nutritional guidance, exercises, and balancing remedies. To my surprise, not only did I avoid surgery, but I also returned to my previous level of activity within a short time . I'm incredibly grateful for this holistic approach.</p>
+                    <h3 class="testi-name">"Chuka Okonkwo"</h3>
+                    <br>
+                    <br>
                     <!-- <span class="testi-degi">Manager</span> -->
                 </div>
             </div>

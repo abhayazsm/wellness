@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use App\Models\AppointmentForm;
 use App\Models\ContactForm;
+use DB;
+use Carbon\Carbon;
 
 use Illuminate\Http\Request;
 
@@ -40,6 +42,10 @@ class HomeController extends Controller
         $appointmentsToday = AppointmentForm::whereDate('created_at', today())->count();
         $appointmentsDone = AppointmentForm::count();
         $totalAppointments = AppointmentForm::count();
+        $totalVisitors = DB::table('website_visits')->count();
+        $todayVisitors = DB::table('website_visits')
+            ->whereDate('created_at', Carbon::today())
+            ->count();
 
         // Calculate percentage of completed appointments
         $appointmentsPercentage = $totalAppointments > 0 ? ($appointmentsDone / $totalAppointments) * 100 : 0;
@@ -54,6 +60,8 @@ class HomeController extends Controller
             'appointmentsDone' => $appointmentsDone,
             'appointmentsPercentage' => $appointmentsPercentage,
             'usersCount' => $usersCount,
+            'todayVisitors' => $todayVisitors,
+            'totalVisitors' => $totalVisitors
         ]);
     }
 }
