@@ -172,7 +172,7 @@
                     <div class="row justify-content-between align-items-center gx-60">
                         <div class="col-auto logo_img">
                             <div class="header-logo">
-                                <a href="index.php">
+                                <a href="{{url('/')}}">
                                     <picture>
                                         <!-- Image for larger screens -->
                                         <source srcset="{{ asset('img/logo_header.png') }}" media="(min-width: 1024px)">

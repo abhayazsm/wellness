@@ -63,6 +63,7 @@ Route::get('/blog-tag/{slug}', 'FrontendController@blogTag')->name('blog-tag');
 Route::get('/gallery', 'FrontendController@mediaList')->name('gallery');
 Route::get('/intake', 'FrontendController@intakeForm')->name('intake');
 Route::get('/fetch-media', [FrontendController::class, 'fetchMedia']);
+Route::get('/faq', [FrontendController::class, 'faqData']);
 
 Route::post('/submit-intake-form', [FrontendController::class, 'submitIntakeForm'])->name('submit-intake-form');
 Route::post('/api/store-visit-count', [FrontendController::class, 'storeVisitCount']);

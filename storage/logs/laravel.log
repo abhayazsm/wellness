@@ -10632,3 +10632,114 @@
 [2024-12-10 16:38:04] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
 [2024-12-10 16:38:06] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
 [2024-12-10 16:38:06] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:47:17] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:47:17] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:47:20] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:47:20] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:47:26] local.INFO: SQL Query Executed: {"sql":"select * from `slides`","bindings":[]} 
+[2024-12-10 16:47:27] local.INFO: SQL Query Executed: {"sql":"select * from `media` order by `created_at` desc limit 5","bindings":[]} 
+[2024-12-10 16:47:27] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media`","bindings":[]} 
+[2024-12-10 16:47:27] local.INFO: SQL Query Executed: {"sql":"select * from `blogs` order by `created_at` desc","bindings":[]} 
+[2024-12-10 16:47:27] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc limit 3","bindings":[]} 
+[2024-12-10 16:47:28] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:47:28] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:47:29] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:47:29] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:47:38] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:47:38] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:47:39] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:47:39] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:47:46] local.INFO: SQL Query Executed: {"sql":"select * from `slides`","bindings":[]} 
+[2024-12-10 16:47:46] local.INFO: SQL Query Executed: {"sql":"select * from `media` order by `created_at` desc limit 5","bindings":[]} 
+[2024-12-10 16:47:46] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media`","bindings":[]} 
+[2024-12-10 16:47:46] local.INFO: SQL Query Executed: {"sql":"select * from `blogs` order by `created_at` desc","bindings":[]} 
+[2024-12-10 16:47:46] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc limit 3","bindings":[]} 
+[2024-12-10 16:47:46] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:47:46] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:47:47] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:47:47] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:49:17] local.INFO: SQL Query Executed: {"sql":"select * from `slides`","bindings":[]} 
+[2024-12-10 16:49:17] local.INFO: SQL Query Executed: {"sql":"select * from `media` order by `created_at` desc limit 5","bindings":[]} 
+[2024-12-10 16:49:17] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media`","bindings":[]} 
+[2024-12-10 16:49:17] local.INFO: SQL Query Executed: {"sql":"select * from `blogs` order by `created_at` desc","bindings":[]} 
+[2024-12-10 16:49:17] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc limit 3","bindings":[]} 
+[2024-12-10 16:49:17] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:49:17] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:49:19] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:49:19] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:49:22] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:49:22] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:49:23] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:49:23] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:49:29] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:49:29] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:49:30] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:49:30] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:49:35] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:49:35] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:49:36] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:49:36] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:49:43] local.INFO: SQL Query Executed: {"sql":"select * from `slides`","bindings":[]} 
+[2024-12-10 16:49:43] local.INFO: SQL Query Executed: {"sql":"select * from `media` order by `created_at` desc limit 5","bindings":[]} 
+[2024-12-10 16:49:43] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media`","bindings":[]} 
+[2024-12-10 16:49:43] local.INFO: SQL Query Executed: {"sql":"select * from `blogs` order by `created_at` desc","bindings":[]} 
+[2024-12-10 16:49:43] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc limit 3","bindings":[]} 
+[2024-12-10 16:49:43] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:49:43] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:49:44] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:49:44] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:49:52] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:49:52] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:49:53] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:49:53] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:51:24] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:51:24] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:51:25] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:51:25] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:51:40] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:51:40] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:51:41] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:51:41] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:54:55] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:54:55] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:54:56] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:54:56] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:55:38] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:55:38] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:55:40] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:55:40] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:55:56] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:55:56] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:55:57] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:55:57] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:56:18] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:56:18] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:56:19] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:56:19] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:57:10] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:57:10] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:57:11] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:57:11] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 16:59:39] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 16:59:39] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 16:59:39] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 16:59:39] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 17:05:26] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 17:05:26] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 17:05:27] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 17:05:27] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-10 17:06:12] local.INFO: SQL Query Executed: {"sql":"select * from `services`","bindings":[]} 
+[2024-12-10 17:06:12] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-10 17:06:12] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-10 17:06:13] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-10 17:06:13] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-12 07:12:54] local.INFO: SQL Query Executed: {"sql":"select * from `slides`","bindings":[]} 
+[2024-12-12 07:12:54] local.INFO: SQL Query Executed: {"sql":"select * from `media` order by `created_at` desc limit 5","bindings":[]} 
+[2024-12-12 07:12:54] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media`","bindings":[]} 
+[2024-12-12 07:12:54] local.INFO: SQL Query Executed: {"sql":"select * from `blogs` order by `created_at` desc","bindings":[]} 
+[2024-12-12 07:12:54] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc limit 3","bindings":[]} 
+[2024-12-12 07:12:56] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2024-12-12 07:12:56] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2024-12-12 07:12:58] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2024-12-12 07:12:58] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2024-12-12 07:13:04] local.INFO: SQL Query Executed: {"sql":"insert into `website_visits` (`visit_type`, `created_at`) values (?, ?)","bindings":["modal_open","2024-12-12 07:13:04"]} 

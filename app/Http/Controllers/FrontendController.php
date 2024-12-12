@@ -120,6 +120,11 @@ class FrontendController extends Controller
         
         return view('frontend/benefits');
     }
+    
+    function faqData(){
+        
+        return view('frontend/faq');
+    }
 
     function successStories(){
         

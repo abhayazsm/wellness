@@ -659,7 +659,7 @@ Testimonial Area
                 <div class="testi-content">
                     <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p class="testi-text">I can't thank Anubha Goel enough for the impact her bioenergetic testing and nutritional guidance have had on my life. As a 46-year-old software professional, I was constantly exhausted and thought my health issues were something I had to live with. After working with Anubha, she identified imbalances in my system and created a personalized plan, leading to significant improvements in my energy levels and focus. I’ve even been able to cut my blood pressure medication in half and wake up feeling rested, truly transforming my health.</p>
+                    <p class="testi-text">I can't thank Dr. Anubha Goel enough for the impact her bioenergetic testing and nutritional guidance have had on my life. As a 46-year-old software professional, I was constantly exhausted and thought my health issues were something I had to live with. After working with Dr. Anubha, she identified imbalances in my system and created a personalized plan, leading to significant improvements in my energy levels and focus. I’ve even been able to cut my blood pressure medication in half and wake up feeling rested, truly transforming my health.</p>
                     <h3 class="testi-name">"Ashton Conroy"</h3>
                     <!-- <span class="testi-degi">Manager</span> -->
                 </div>

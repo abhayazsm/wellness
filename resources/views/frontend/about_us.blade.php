@@ -33,10 +33,10 @@
             </div>
             
             <div class="col-md-6 mt-5">
-                <h2 class="h3 pe-xxl-5 me-xxl-5 text-center">Anubha Goel</h2>
+                <h2 class="h3 pe-xxl-5 me-xxl-5 text-center">Dr. Anubha Goel</h2>
 
                 <p>
-                    Our Founder -Anubha Goel is a highly qualified physical therapist holding a Doctorate in Physical Therapy with  over 20 years of clinical experience, She has devoted her career to helping individuals overcome pain, recover from injury, and regain their strength. But her passion for health and well-being has always gone deeper. She understands that true healing begins when we address the root causes of dysfunction—whether they stem from physical strain, nutritional deficiencies, or energetic imbalances.
+                    Our Founder Dr. Anubha Goel is a highly qualified physical therapist holding a Doctorate in Physical Therapy with  over 20 years of clinical experience, She has devoted her career to helping individuals overcome pain, recover from injury, and regain their strength. But her passion for health and well-being has always gone deeper. She understands that true healing begins when we address the root causes of dysfunction—whether they stem from physical strain, nutritional deficiencies, or energetic imbalances.
                 </p>
 
                 <p>
