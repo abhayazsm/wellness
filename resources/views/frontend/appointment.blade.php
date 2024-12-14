@@ -184,6 +184,19 @@
             </div>
         </div>
     </section>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Set the localStorage value when the page loads
+            const appointmentVisited = localStorage.getItem('modalShowndynamicModal0');
+            
+            if (!appointmentVisited) {
+                // Only set this if it doesn't exist already
+                localStorage.setItem('modalShowndynamicModal0', 'true');
+                console.log('Appointment page visited for the first time!');
+            } else {
+                console.log('Appointment page already visited.');
+            }
+        });
+    </script>
 
 @endsection

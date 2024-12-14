@@ -107,8 +107,8 @@
                                 'question' => 'How do I schedule an appointment?',
                                 'answer' => 'You can schedule your bioenergetic testing session by: 
                                 <ul>
-                                    <li>Visiting our website [insert website link].</li>
-                                    <li>Calling us directly at [insert phone number].</li>
+                                    <li>Visiting our website <a href="https://wellnessintegrated.co/" target="_blank" rel="noopener noreferrer">www.wellnessintegrated.co</a></li>
+                                    <li>Calling us directly at. <a href="tel:+1 5164063272">+1 5164063272</a></li>
                                     <li>Booking online via our scheduling system.</li>
                                 </ul>'
                             ]

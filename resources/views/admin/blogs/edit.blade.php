@@ -102,7 +102,7 @@
         </div>
     </div>
     <div class="mb-4">
-        <button type="submit" class="btn btn-warning">Updated Blog</button>
+        <button type="submit" class="btn btn-info">Updated Blog</button>
         <a class="btn btn-danger" href="{{route('admin.blogs.index')}}">Back</a>
     </div>
     

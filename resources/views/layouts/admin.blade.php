@@ -4,13 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Laravel SB Admin 2">
+    <meta name="description" content="Integrated Wellness Service">
     <meta name="author" content="Alejandro RH">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Integrated Wellness Service</title>
 
     <!-- Fonts -->
     <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
@@ -43,6 +43,53 @@
         span {
             color: white;
         }
+
+        /* Toggle Switch Style */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            border-radius: 50%;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #4CAF50;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+
         
         
     </style>
@@ -206,6 +253,34 @@
             <div class="dropdown-menu side-bar" aria-labelledby="servicesDropdown">
                 @foreach(['create' => 'Add Services', 'index' => 'List Services'] as $route => $label)
                     <a class="dropdown-item {{ Nav::isRoute('admin.services.' . $route) }}" href="{{ route('admin.services.' . $route) }}">
+                        {{ __($label) }}
+                    </a>
+                @endforeach
+            </div>
+        </li>
+
+        <li class="nav-item dropdown {{ Nav::isRoute('admin.testimonials.*') }}">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-fw fa fa-columns"></i>
+                <span>{{ __('Testimonials') }}</span>
+            </a>
+            <div class="dropdown-menu side-bar" aria-labelledby="testimonialsDropdown">
+                @foreach(['create' => 'Add Testimonial', 'index' => 'List Testimonial'] as $route => $label)
+                    <a class="dropdown-item {{ Nav::isRoute('admin.testimonials.' . $route) }}" href="{{ route('admin.testimonials.' . $route) }}">
+                        {{ __($label) }}
+                    </a>
+                @endforeach
+            </div>
+        </li>
+
+        <li class="nav-item dropdown {{ Nav::isRoute('admin.modals.*') }}">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-fw fa fa-clone"></i>
+                <span>{{ __('Modal Popup') }}</span>
+            </a>
+            <div class="dropdown-menu side-bar" aria-labelledby="modalsDropdown">
+                @foreach(['create' => 'Add Modals Popup', 'index' => 'List Modals Popup'] as $route => $label)
+                    <a class="dropdown-item {{ Nav::isRoute('admin.modals.' . $route) }}" href="{{ route('admin.modals.' . $route) }}">
                         {{ __($label) }}
                     </a>
                 @endforeach
@@ -499,6 +574,7 @@
         extraAllowedContent: 'p div span[*]; a[!href]; img[!src,alt,width,height];', // Specify additional allowed tags
     });
     CKEDITOR.replace('services');
+    CKEDITOR.replace('bodys');
 </script>
 </body>
 </html>

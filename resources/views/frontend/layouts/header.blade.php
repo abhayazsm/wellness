@@ -301,42 +301,35 @@
   </div>
 </div>
 
+@php
+    $modals = App\Models\Modal::where('status', 'active')->orderBy('priority')->get();
+@endphp
 
-<!-- Modal -->
-<div class="modal fade" id="bioenergeticModal" tabindex="-1" aria-labelledby="bioenergeticModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header" style="background-color: #fde7da; color: #fff;">
-        <h5 class="modal-title" id="bioenergeticModalLabel">Experience the Transformative Power of Bioenergetic Testing!</h5>
-        <button type="button" 
-                class="btn-close" 
-                data-bs-dismiss="modal" 
-                aria-label="Close" 
-                style="font-size: 24px; color: #333; cursor: pointer; margin:0;">
-            <i class="fa fa-window-close" 
-                aria-hidden="true" 
-                style="font-size: 32px; transition: color 0.3s, transform 0.3s;">
-            </i>
-        </button>
-      </div>
-      <div class="modal-body" style="padding: 20px; line-height: 1.8; font-size: 1.1rem;">
-        <p>As part of our exclusive introductory offer, get a comprehensive Bioenergetic Testing session, including one personalized remedy, valued at <strong>$299</strong>, for just <strong>$99</strong>!</p>
-        <ul style="list-style: none; padding-left: 0;">
-          <li>✅ Identify hidden energetic imbalances</li>
-          <li>✅ Restore balance and boost vitality</li>
-          <li>✅ Take the first step toward lasting wellness</li>
-        </ul>
-        <p>This special offer is available for a limited time—don’t miss out!</p>
-        <div style="text-align: center; margin-top: 20px;">
-        <a href="{{ url('/appointment') }}" 
-            class="vs-btn mob-button" 
-            onclick="handleClick(event)">
-            🔸 Click to Schedule Your First Session Today! 🔸
-        </a>
+@foreach ($modals as $index => $modal)
+<div class="modal fade" id="dynamicModal{{ $index }}" tabindex="-1" aria-labelledby="dynamicModalLabel{{ $index }}" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: {{ $modal->background_color }}; color: #fff;">
+                <h5 class="modal-title" data="{{$modal->button_text ? true : false}}" id="dynamicModalLabel{{ $index }}">{{ $modal->title }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="font-size: 24px; color: #333; cursor: pointer; margin:0;">
+                    <i class="fa fa-window-close" 
+                        aria-hidden="true" 
+                        style="font-size: 32px; transition: color 0.3s, transform 0.3s;">
+                    </i>
+                </button>
+            </div>
+            <div class="modal-body">
+                {!! $modal->body !!}
+                @if($modal->button_text && $modal->button_link)
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="{{ $modal->button_link }}" class="vs-btn mob-button" onclick="handleClick(event)">
+                        {{ $modal->button_text }}
+                    </a>
+                </div>
+                @endif
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
-
+@endforeach
 

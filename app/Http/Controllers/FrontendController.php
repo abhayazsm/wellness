@@ -11,6 +11,7 @@ use App\Models\Service;
 use App\Models\AppointmentForm;
 use App\Models\ContactForm;
 use App\Models\IntakeForm;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use DB; 
@@ -24,8 +25,9 @@ class FrontendController extends Controller
         $remainingCount = Media::count() - $mediaItems->count(); // Remaining items count
         $blogs = Blog::orderBy('created_at', 'desc')->get(); 
         $services = Service::take(3)->orderBy('created_at', 'ASC')->get();
+        $testimonials = Testimonial::all();
         
-        return view('frontend/home', compact('slides', 'mediaItems', 'blogs', 'services', 'remainingCount'));
+        return view('frontend/home', compact('slides', 'mediaItems', 'blogs', 'services', 'remainingCount', 'testimonials'));
     }
     
     function appointment(){
@@ -49,9 +51,8 @@ class FrontendController extends Controller
 
         AppointmentForm::create($request->all());
 
-        $message = $request->name . ' Your appointment booked successfully on ' . 
-        Carbon::createFromFormat('Y-m-d', $request->date)->format('F j, Y') . ' for ' . 
-        $request->time;
+        $message = "Congratulations on taking this step toward unlocking your full health potential!
+        One of our team members will be in touch shortly to schedule your appointment as per your convenience.";
 
         return redirect()->back()->with('success', $message);
     }
@@ -127,8 +128,8 @@ class FrontendController extends Controller
     }
 
     function successStories(){
-        
-        return view('frontend/success_stories');
+        $testimonials = Testimonial::all();
+        return view('frontend/success_stories', compact('testimonials'));
     }
 
     function blogList($slug = null){

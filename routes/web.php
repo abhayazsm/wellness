@@ -14,7 +14,9 @@ use App\Http\Controllers\Admin\ContactUsController;
 use App\Http\Controllers\Auth\CustomLoginController;  
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\Admin\IntakeController;
-  
+use App\Http\Controllers\Admin\TestimonialController;
+use App\Http\Controllers\Admin\ModalController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -80,6 +82,9 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('contacts', [ContactUsController::class, 'index'])->name('contacts');
     Route::get('intake', [IntakeController::class, 'index'])->name('intake');
     Route::get('intake-detail/{id}', [IntakeController::class, 'showFormData'])->name('intake-detail');
+    Route::resource('testimonials', TestimonialController::class);
+    Route::resource('modals', ModalController::class);
+    Route::patch('modals/{modal}/updateStatus', [ModalController::class, 'updateStatus'])->name('admin.modals.updateStatus');
 });
 
 // Blogs Route

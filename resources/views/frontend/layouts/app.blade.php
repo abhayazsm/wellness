@@ -197,6 +197,26 @@
         color: red;
         transform: scale(1.2);
     }
+
+    .testi-style3 {
+        height: 500px; /* Fixed height */
+        /* overflow: hidden; Hide overflow content */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Adjust content alignment */
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #fff; /* Optional: Add background */
+    }
+    .testi-text {
+        flex-grow: 1; /* Allow text to take remaining space */
+        margin-bottom: 15px; /* Add spacing */
+    }
+    .testi-icon {
+        font-size: 1.5rem; /* Optional: Adjust icon size */
+    }
+
         
     </style>
 </head>
@@ -481,45 +501,59 @@
     });
 
 
+    @php
+        $modals = App\Models\Modal::where('status', 'active')->orderBy('priority')->get();
+    @endphp
+
     document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(function () {
-        if (!localStorage.getItem('modalShown')) {
-            // Show the modal
-            var myModal = new bootstrap.Modal(document.getElementById('bioenergeticModal'), {});
-            myModal.show();
+        let currentModalIndex = 0;
+        const modals = @json($modals->pluck('id')); // Get modal IDs as an array
 
-            // Set the flag in local storage
-            // localStorage.setItem('modalShown', 'true');
-
-            // Make an AJAX call to store the visit count
-            fetch('/api/store-visit-count', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content') // For Laravel
-            },
-            body: JSON.stringify({
-                visit_type: 'modal_open'
-            })
-            })
-            .then(response => response.json())
-            .then(data => {
-            console.log('Visit count updated:', data);
-            })
-            .catch(error => {
-            console.error('Error updating visit count:', error);
-            });
+        // Function to check if the modal has been shown before
+        function hasModalBeenShown(modalId) {
+            return localStorage.getItem(`modalShown${modalId}`) === 'true';
         }
-        }, 5000); // 5 seconds delay
+
+        function showNextModal() {
+            setTimeout(function () {
+                if (currentModalIndex < modals.length) {
+                    const modalId = `dynamicModal${currentModalIndex}`;
+                    const modalElement = document.getElementById(modalId);
+
+                    // Check if this modal has already been shown using its specific flag
+                    if (!hasModalBeenShown(modalId)) {
+                        if (modalElement) {
+                            const bootstrapModal = new bootstrap.Modal(modalElement, {});
+                            bootstrapModal.show();
+
+                            modalElement.addEventListener('hidden.bs.modal', function () {
+                                // Set the localStorage flag once the modal is closed
+                                // localStorage.setItem(`modalShown${modalId}`, 'true');
+                                currentModalIndex++;
+                                showNextModal(); // Show the next modal after the current one is closed
+                            });
+                        } else {
+                            currentModalIndex++;
+                            showNextModal(); // Skip if modalElement is not found
+                        }
+                    } else {
+                        // Skip showing this modal if it has already been shown
+                        currentModalIndex++;
+                        showNextModal();
+                    }
+                }
+            }, 5000);
+        }
+
+        showNextModal(); // Start displaying modals if they haven't been shown before
     });
 
     function handleClick(event) {
-        // Set the flag in local storage
-        localStorage.setItem('modalShown', 'true');
-        
-        // Allow redirection to the href
-        window.location.href = event.target.href;
+        const modalId = event.target.closest('.modal').id; // Get the modal ID
+        localStorage.setItem(`modalShown${modalId}`, 'true'); // Set the flag for this specific modal
+        window.location.href = event.target.href; // Allow redirection to the href
     }
+
 </script>
 
 
