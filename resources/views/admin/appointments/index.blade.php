@@ -18,6 +18,7 @@
             </div>
         </div>
     </form>
+
     <div class="card shadow-sm">
         <div class="card-header bg-info text-white">
             <h5 class="mb-0">Appointment List</h5>
@@ -38,9 +39,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @forelse($appointments as $appointment)
+                    @foreach($appointments as $index => $appointment)
                         <tr>
-                            <td>{{ $appointment->id }}</td>
+                            <td>{{ $appointments->firstItem() + $index }}</td> <!-- Serial number -->
                             <td>{{ $appointment->name }} {{ $appointment->last_name }}</td>
                             <td>{{ $appointment->email }}</td>
                             <td>{{ $appointment->phone }}</td>
@@ -49,11 +50,7 @@
                             <td>{{ $appointment->time }}</td>
                             <td>{{ $appointment->created_at->format('Y-m-d H:i:s') }}</td>
                         </tr>
-                    @empty
-                        <tr>
-                            <td colspan="9" class="text-center text-muted">No appointments found.</td>
-                        </tr>
-                    @endforelse
+                    @endforeach
                 </tbody>
             </table>
 
@@ -63,8 +60,4 @@
             </div>
         </div>
     </div>
-@endsection
-
-@section('scripts')
-    <!-- Optionally add any JS scripts here for interactions -->
 @endsection

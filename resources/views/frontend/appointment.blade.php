@@ -111,6 +111,7 @@
                                 <option value="{{ $service->title }}" {{ old('service') == $service->title ? 'selected' : '' }}>{{ $service->title }}</option>
                             @endforeach
                             <option value="Complementary 15 min consultation">Complementary 15 min consultation</option>
+                            <option value="Introductory offer- one session for $99">Introductory offer- one session for $99</option>
                         </select>
                         @error('service')
                             <div class="invalid-feedback text-danger">{{ $message }}</div>

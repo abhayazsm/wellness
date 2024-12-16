@@ -14,8 +14,7 @@
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
                         <li class="text-white"><a href="index.html" class="text-white">Home</a></li>
-                        <li class="text-white">FAQs <span class="inner-text text-white">: Bioenergetic Testing Services</span></li>
-                        <p class="testi-text" style="color:white">Welcome to our holistic wellness practice, where science and energy converge to provide a transformative approach to health optimization. Our bioenergetic testing services are designed to uncover hidden imbalances, identify root causes of dysfunction, and support you on a personalized path toward vitality and well-being.</p>
+                        <li class="text-white">FAQ</li>
                     </ul>
                 </div>
             </div>
