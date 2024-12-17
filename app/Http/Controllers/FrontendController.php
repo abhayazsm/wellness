@@ -15,6 +15,8 @@ use App\Models\Testimonial;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use DB; 
+use App\Mail\AppointmentConfirmationMail;
+use Illuminate\Support\Facades\Mail;
 
 class FrontendController extends Controller
 {
@@ -49,7 +51,9 @@ class FrontendController extends Controller
             // 'time' => 'required',
         ]);
 
-        AppointmentForm::create($request->all());
+        $appointment = AppointmentForm::create($request->all());
+        // Send the email
+        Mail::to($appointment->email)->send(new AppointmentConfirmationMail($appointment));
 
         $message = "Congratulations on taking this step toward unlocking your full health potential!
         One of our team members will be in touch shortly to schedule your appointment as per your convenience.";
