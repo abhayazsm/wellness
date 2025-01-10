@@ -22,8 +22,8 @@
 </div>
 
 <section class=" space-top space-extra-bottom">
-    <div class="shape-mockup jump-img d-none d-xl-block" data-left="34%" data-bottom="1%"><img
-            src="{{ asset('img/shape/leaf-1-6.png') }}" alt="shape"></div>
+    <!-- <div class="shape-mockup jump-img d-none d-xl-block" data-left="34%" data-bottom="1%"><img
+            src="{{ asset('img/shape/leaf-1-6.png') }}" alt="shape"></div> -->
     <div class="container">
         <div class="row justify-content-between gx-0 ">
             <div class="col-md-5">
@@ -49,6 +49,42 @@
             </div>
             <div class="col-md-1">
 
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class=" space-top space-extra-bottom">
+    <!-- <div class="shape-mockup jump-img d-none d-xl-block" data-left="34%" data-bottom="1%"><img
+            src="{{ asset('img/shape/leaf-1-6.png') }}" alt="shape"></div> -->
+    <div class="container">
+        <div class="row justify-content-between gx-0 ">
+            
+            <div class="col-md-6 mt-5">
+                <h2 class="h3 pe-xxl-5 me-xxl-5 text-center">Dr. Shen</h2>
+
+                <p>
+                Dr. Shen is a licensed and nationally board-certified acupuncturist.
+                She graduated with a master’s medicine degree from  Medical University in China.
+                </p>
+
+                <p>
+                Then
+                she began learning traditional Chinese medicine techniques  from several of her family members who were  doctors of traditional Chinese medicine.Then she became interested in the various modalities of natural medicine that help to prevent and relieve issues, musculoskeletal aches, pain, and emotional stress.Now she is committed to helping her patients on their road to recovery and wellness.
+                </p>
+
+                <!-- <p>
+                    <i>We’re here to guide you on a path toward balance, resilience, and lifelong health.</i>
+                </p> -->
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <div><img src="{{ asset('img/portfolio-2.png') }}" class="rounded" alt="about" class="w-100"></div>
+                </div>
             </div>
             
         </div>

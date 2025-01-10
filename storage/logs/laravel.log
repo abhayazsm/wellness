@@ -18466,3 +18466,51 @@ sdfajdsflajf alksfdjaslk flasf jsjajslkf</p>
 [2024-12-16 15:50:20] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
 [2024-12-16 15:50:23] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
 [2024-12-16 15:50:23] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2025-01-10 07:47:36] local.INFO: SQL Query Executed: {"sql":"select * from `slides`","bindings":[]} 
+[2025-01-10 07:47:37] local.INFO: SQL Query Executed: {"sql":"select * from `media` order by `created_at` desc limit 5","bindings":[]} 
+[2025-01-10 07:47:37] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media`","bindings":[]} 
+[2025-01-10 07:47:37] local.INFO: SQL Query Executed: {"sql":"select * from `blogs` order by `created_at` desc","bindings":[]} 
+[2025-01-10 07:47:37] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc limit 3","bindings":[]} 
+[2025-01-10 07:47:37] local.INFO: SQL Query Executed: {"sql":"select * from `testimonials`","bindings":[]} 
+[2025-01-10 07:47:41] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2025-01-10 07:47:41] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:47:41] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2025-01-10 07:47:41] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:47:44] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2025-01-10 07:47:44] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2025-01-10 07:47:52] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2025-01-10 07:47:52] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:47:52] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2025-01-10 07:47:52] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:47:52] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2025-01-10 07:47:52] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2025-01-10 07:48:24] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2025-01-10 07:48:24] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:48:24] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2025-01-10 07:48:24] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:48:24] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2025-01-10 07:48:24] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2025-01-10 07:49:16] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2025-01-10 07:49:16] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:49:16] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2025-01-10 07:49:16] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:49:17] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2025-01-10 07:49:17] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2025-01-10 07:49:31] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2025-01-10 07:49:31] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:49:31] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2025-01-10 07:49:31] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:49:33] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2025-01-10 07:49:33] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2025-01-10 07:58:07] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2025-01-10 07:58:07] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:58:07] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2025-01-10 07:58:07] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:58:08] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2025-01-10 07:58:08] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
+[2025-01-10 07:59:25] local.INFO: SQL Query Executed: {"sql":"select * from `menus` where `is_active` = ? order by `order` asc","bindings":[true]} 
+[2025-01-10 07:59:25] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:59:25] local.INFO: SQL Query Executed: {"sql":"select * from `services` order by `created_at` asc","bindings":[]} 
+[2025-01-10 07:59:25] local.INFO: SQL Query Executed: {"sql":"select * from `modals` where `status` = ? order by `priority` asc","bindings":["active"]} 
+[2025-01-10 07:59:27] local.INFO: SQL Query Executed: {"sql":"select * from `media` where `type` in (?, ?) limit 5 offset 0","bindings":["image","video"]} 
+[2025-01-10 07:59:27] local.INFO: SQL Query Executed: {"sql":"select count(*) as aggregate from `media` where `type` in (?, ?)","bindings":["image","video"]} 
